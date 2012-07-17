@@ -33,6 +33,8 @@ KEY_LOCATION=~/.ssh/ec2key.rsa
 # [key my-other-gsg-keypair]
 # KEY_LOCATION=/home/myuser/.ssh/id_rsa-my-other-gsg-keypair
 
+# ipythondev plugin from:
+# https://github.com/minrk/starclusterplugins
 [plugin ipythondev]
 setup_class = ipythondev.IPythonSetup
 
