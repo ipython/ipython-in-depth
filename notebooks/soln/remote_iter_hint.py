@@ -1,4 +1,4 @@
-from IPython import display
+from IPython.display import display
 
 t_minus = range(10,0,-1)
 
