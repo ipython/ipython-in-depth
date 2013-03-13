@@ -10,3 +10,6 @@ class Circle(object):
     
     def _repr_latex_(self):
         return r"$\bigcirc$"
+
+    def _repr_javascript_(self):
+        return "alert('I am a circle!');"
