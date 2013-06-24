@@ -7,7 +7,7 @@
 import sys
 
 from IPython.lib.kernel import connect_qtconsole
-from IPython.kernel.zmq.kernelapp import IPKernelApp
+from IPython.zmq.ipkernel import IPKernelApp
 
 #-----------------------------------------------------------------------------
 # Functions and classes
@@ -36,7 +36,6 @@ class SimpleKernelApp(object):
         # Example: a variable that will be seen by the user in the shell, and
         # that the GUI modifies (the 'Counter++' button increments it):
         self.namespace['app_counter'] = 0
-        #self.namespace['ipkernel'] = self.ipkernel  # dbg
 
     def print_namespace(self, evt=None):
         print("\n***Variables in User namespace***")

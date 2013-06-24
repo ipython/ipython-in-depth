@@ -20,18 +20,18 @@ they will notice that their kernel died.
 
 from PyQt4 import Qt
 
-from internal_ipkernel import InternalIPKernel
+from kapp import SimpleKernelApp
 
 #-----------------------------------------------------------------------------
 # Functions and classes
 #-----------------------------------------------------------------------------
-class SimpleWindow(Qt.QWidget, InternalIPKernel):
+class SimpleWindow(Qt.QWidget):
 
     def __init__(self, app):
         Qt.QWidget.__init__(self)
         self.app = app
+        self.kapp = SimpleKernelApp('qt')
         self.add_widgets()
-        self.init_ipkernel('qt')
 
     def add_widgets(self):
         self.setGeometry(300, 300, 400, 70)
@@ -40,15 +40,15 @@ class SimpleWindow(Qt.QWidget, InternalIPKernel):
         # Add simple buttons:
         console = Qt.QPushButton('Qt Console', self)
         console.setGeometry(10, 10, 100, 35)
-        self.connect(console, Qt.SIGNAL('clicked()'), self.new_qt_console)
+        self.connect(console, Qt.SIGNAL('clicked()'), self.kapp.new_qt_console)
 
         namespace = Qt.QPushButton('Namespace', self)
         namespace.setGeometry(120, 10, 100, 35)
-        self.connect(namespace, Qt.SIGNAL('clicked()'), self.print_namespace)
+        self.connect(namespace, Qt.SIGNAL('clicked()'), self.kapp.print_namespace)
 
         count = Qt.QPushButton('Count++', self)
         count.setGeometry(230, 10, 80, 35)
-        self.connect(count, Qt.SIGNAL('clicked()'), self.count)
+        self.connect(count, Qt.SIGNAL('clicked()'), self.kapp.count)
 
         # Quit and cleanup
         quit = Qt.QPushButton('Quit', self)
@@ -58,7 +58,7 @@ class SimpleWindow(Qt.QWidget, InternalIPKernel):
         self.app.connect(self.app, Qt.SIGNAL("lastWindowClosed()"),
                          self.app, Qt.SLOT("quit()"))
 
-        self.app.aboutToQuit.connect(self.cleanup_consoles)
+        self.app.aboutToQuit.connect(self.kapp.cleanup_consoles)
 
 #-----------------------------------------------------------------------------
 # Main script
@@ -72,4 +72,4 @@ if __name__ == "__main__":
 
     # Very important, IPython-specific step: this gets GUI event loop
     # integration going, and it replaces calling app.exec_()
-    win.ipkernel.start()
+    win.kapp.start()
