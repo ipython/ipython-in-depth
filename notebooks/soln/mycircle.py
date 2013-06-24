@@ -1,4 +1,4 @@
-class Circle(object):
+class MyCircle(object):
     
     def _repr_html_(self):
         return "&#x25CB;"
