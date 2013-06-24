@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+import time
+
 class TicToc(object):
     def __init__(self):
         self.tic()
