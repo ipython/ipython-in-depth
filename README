@@ -1,1 +1,18 @@
-Repository for an in-depth 3-hour tutorial on IPython.
+# IPython in depth tutorial (EuroSciPy edition)
+
+To get the tutorial, checkout the `euroscipy13` branch of `ipython-in-depth`:
+
+    $ git clone https://github.com/ipython/ipython-in-depth -b euroscipy13
+
+Or just download and unzip the branch:
+
+    $ wget https://github.com/ipython/ipython-in-depth/zipball/euroscipy13 -O ipython-in-depth.zip
+    # or
+    $ curl -L https://github.com/ipython/ipython-in-depth/zipball/euroscipy13 -o ipython-in-depth.zip
+    $ unzip ipython-in-depth.zip
+
+To start the notebook server with the shipped `euroscipy` profile:
+
+    $ cd /path/to/ipython-in-depth
+    $ ipython notebook --ProfileDir.location=./profile_euroscipy
+
