@@ -4,7 +4,7 @@ class MyCircle(object):
         return "&#x25CB; (<b>html</b>)"
 
     def _repr_svg_(self):
-        return """<svg width=100px height=100px>
+        return """<svg width="100px" height="100px">
            <circle cx="50" cy="50" r="20" stroke="black" stroke-width="1" fill="blue"/>
         </svg>"""
     
