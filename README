@@ -1,18 +1,18 @@
 # IPython in depth tutorial (EuroSciPy edition)
 
-To get the tutorial, checkout the `euroscipy` branch of `ipython-in-depth`:
+To get the tutorial, checkout the `ipython-in-depth` repo:
 
-    $ git clone https://github.com/ipython/ipython-in-depth -b euroscipy
+    $ git clone https://github.com/ipython/ipython-in-depth
 
-Or just download and unzip the branch:
+Or just download and unzip current master:
 
-    $ wget https://github.com/ipython/ipython-in-depth/zipball/euroscipy -O ipython-in-depth.zip
+    $ wget https://github.com/ipython/ipython-in-depth/zipball/master -O ipython-in-depth.zip
     # or
-    $ curl -L https://github.com/ipython/ipython-in-depth/zipball/euroscipy -o ipython-in-depth.zip
+    $ curl -L https://github.com/ipython/ipython-in-depth/zipball/master -o ipython-in-depth.zip
     $ unzip ipython-in-depth.zip
 
 To start the notebook server with the shipped `euroscipy` profile:
 
     $ cd /path/to/ipython-in-depth
-    $ ipython notebook --ProfileDir.location=./profile_euroscipy
+    $ ipython notebook --profile euroscipy
 
