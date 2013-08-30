@@ -1,15 +1,15 @@
-# IPython in depth tutorial (EuroSciPy 2013 edition)
+# IPython in depth tutorial
 
 
 To get the tutorial, checkout the `ipython-in-depth` repo:
 
-    $ git clone https://github.com/ipython/ipython-in-depth -b euroscipy-2013
+    $ git clone https://github.com/ipython/ipython-in-depth
 
 Or just download and unzip current master:
 
-    $ wget https://github.com/ipython/ipython-in-depth/zipball/euroscipy-2013 -O ipython-in-depth.zip
+    $ wget https://github.com/ipython/ipython-in-depth/zipball/master -O ipython-in-depth.zip
     # or
-    $ curl -L https://github.com/ipython/ipython-in-depth/zipball/euroscipy-2013 -o ipython-in-depth.zip
+    $ curl -L https://github.com/ipython/ipython-in-depth/zipball/master -o ipython-in-depth.zip
     $ unzip ipython-in-depth.zip
 
 To start the notebook server with the shipped `euroscipy` profile:
