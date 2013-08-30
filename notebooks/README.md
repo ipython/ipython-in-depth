@@ -15,7 +15,6 @@ where you will find many more examples that cover areas from basic Python
 programming to advanced topics in scientific computing.
 
 * [00 - Notebook Basics](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/00%20-%20Notebook%20Basics.ipynb)
-* [00 - What's new in 1.0](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/00%20-%20What%27s%20new%20in%201.0.ipynb)
 * [01 - IPython - beyond plain Python](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/01%20-%20IPython%20-%20beyond%20plain%20Python.ipynb)
 * [02 - Markdown Cells](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/02%20-%20Markdown%20Cells.ipynb)
 * [03 - Rich Display System](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/03%20-%20Rich%20Display%20System.ipynb)
@@ -38,3 +37,4 @@ programming to advanced topics in scientific computing.
 * [Terminal usage](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/Terminal%20usage.ipynb)
 * [Typesetting Math Using MathJax](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/Typesetting%20Math%20Using%20MathJax.ipynb)
 * [Using DirectView and LoadBalancedView Together](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/Using%20DirectView%20and%20LoadBalancedView%20Together.ipynb)
+* [What's new in 1.0](http://nbviewer.ipython.org/url/github.com/ipython/ipython-in-depth/raw/master/notebooks/What%27s%20new%20in%201.0.ipynb)
