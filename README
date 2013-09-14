@@ -12,8 +12,8 @@ Or just download and unzip current master:
     $ curl -L https://github.com/ipython/ipython-in-depth/zipball/master -o ipython-in-depth.zip
     $ unzip ipython-in-depth.zip
 
-To start the notebook server with the shipped `euroscipy` profile:
+To start the notebook server with the tutorial notebooks:
 
-    $ cd /path/to/ipython-in-depth
-    $ ipython notebook --profile euroscipy
+    $ cd /path/to/ipython-in-depth/notebooks
+    $ ipython notebook
 
