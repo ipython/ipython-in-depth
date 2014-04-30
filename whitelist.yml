@@ -22,3 +22,6 @@ Notebook:
     - Notebook Security.ipynb
     - images
     - nbpackage
+
+IPython Kernel:
+    - Background Jobs.ipynb
