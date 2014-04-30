@@ -2,6 +2,7 @@ from __future__ import print_function
 import yaml
 import os
 import shutil
+from distutils.dir_util import copy_tree
 
 IPYTHON_PATH = os.path.join("..", "ipython")
 
@@ -11,7 +12,10 @@ def _recursive_copy(tree, path=''):
         new_file = os.path.join(IPYTHON_PATH, 'examples', path, tree)
         if os.path.isfile(new_file):
             shutil.copy(new_file, old_file)
-            print('Copied "{0}" to "{1}".'.format(new_file, old_file))
+            print('Copied file "{0}" to "{1}".'.format(new_file, old_file))
+        elif os.path.isdir(new_file):
+            copy_tree(new_file, old_file)
+            print('Copied tree "{0}" to "{1}".'.format(new_file, old_file))
         else:
             print('File "{0}" not found, your whitelist.yml is probably incorrect or old.'.format(new_file))
     elif isinstance(tree, (list, tuple)):
