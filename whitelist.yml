@@ -25,3 +25,8 @@ Notebook:
 
 IPython Kernel:
     - Background Jobs.ipynb
+    - Rich Output.ipynb
+    - Custom Display Logic.ipynb
+    - Third Party Rich Output.ipynb
+    - data
+
