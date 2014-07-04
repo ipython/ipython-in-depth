@@ -1,0 +1,221 @@
+
+####################################
+## StarCluster Configuration File ##
+####################################
+
+[global]
+# configure the default cluster template to use when starting a cluster
+# defaults to 'smallcluster' defined below. this template should be usable
+# out-of-the-box provided you've configured your keypair correctly
+DEFAULT_TEMPLATE=c64
+# enable experimental features for this release
+ENABLE_EXPERIMENTAL=True
+
+[aws info]
+# This is the AWS credentials section.
+# These settings apply to all clusters
+# replace these with your AWS keys
+
+AWS_ACCESS_KEY_ID = C12BAC13BBA22BBACA22
+AWS_SECRET_ACCESS_KEY = b12acc23AA23aC2CA2bb132AC3BCb3AAAc2B2a21
+# replace this with your account number
+AWS_USER_ID = 1234-5678-4321
+
+
+# Sections starting with "key" define your keypairs
+# (see the EC2 getting started guide tutorial on using ec2-add-keypair to learn
+# how to create new keypairs)
+# Section name should match your key name e.g.:
+[key ec2key]
+KEY_LOCATION=~/.ssh/ec2key.rsa
+
+# You can of course have multiple keypair sections
+# [key my-other-gsg-keypair]
+# KEY_LOCATION=/home/myuser/.ssh/id_rsa-my-other-gsg-keypair
+
+# ipythondev plugin from:
+# https://github.com/minrk/starclusterplugins
+[plugin ipythondev]
+setup_class = ipythondev.IPythonSetup
+
+[plugin ipcluster]
+setup_class = starcluster.plugins.ipcluster.IPCluster
+enable_notebook = true
+notebook_passwd = SciPy2012
+
+# output = output.dat
+
+# Sections starting with "cluster" define your cluster templates
+# Section name is the name you give to your cluster template e.g.:
+[cluster base]
+# change this to the name of one of the keypair sections defined above
+KEYNAME = ec2key
+
+# number of ec2 instances to launch
+CLUSTER_SIZE = 1
+
+# create the following user on the cluster
+#CLUSTER_USER = starmin
+
+# optionally specify shell (defaults to bash)
+# (options: tcsh, zsh, csh, bash, ksh)
+CLUSTER_SHELL = bash
+
+# AMI for cluster nodes.
+# The base i386 StarCluster AMI is ami-8cf913e5
+# The base x86_64 StarCluster AMI is ami-0af31963
+# NODE_IMAGE_ID = ami-0af31963
+NODE_IMAGE_ID = ami-999d49f0
+# instance type for all cluster nodes
+# (options: m1.large, c1.xlarge, m1.small, c1.medium, m1.xlarge, m2.4xlarge, m2.2xlarge)
+NODE_INSTANCE_TYPE = m1.large
+
+# Uncomment to specify a different instance type for the master node  (OPTIONAL)
+# (defaults to NODE_INSTANCE_TYPE if not specified)
+#MASTER_INSTANCE_TYPE = m1.small
+
+# Uncomment to specify a separate AMI to use for the master node. (OPTIONAL)
+# (defaults to NODE_IMAGE_ID if not specified)
+#MASTER_IMAGE_ID = ami-d1c42db8 (OPTIONAL)
+
+# availability zone to launch the cluster in (OPTIONAL)
+# (automatically determined based on volumes (if any) or
+# selected by Amazon if not specified)
+#AVAILABILITY_ZONE = us-east-1c
+
+# list of volumes to attach to the master node and nfs share to worker nodes (OPTIONAL)
+# (see "Configuring EBS Volumes" below for an example of defining volume sections)
+#VOLUMES = oceandata, biodata
+
+# list of plugins to load after StarCluster's default setup routines (OPTIONAL)
+# (see "Configuring StarCluster Plugins" below for an example of defining a plugin section)
+#PLUGINS = myplugin, myplugin2
+
+###########################################
+## Defining Additional Cluster Templates ##
+###########################################
+
+# You can also define multiple cluster templates.
+# You can either supply all configuration options as with smallcluster above, or
+# create an EXTENDS=<cluster_name> variable in the new cluster section to use all
+# settings from <cluster_name> as defaults. Below are a couple of example
+# cluster templates that use the EXTENDS feature:
+
+[cluster large]
+# Declares that this cluster uses smallcluster as defaults
+EXTENDS=base
+NODE_IMAGE_ID = ami-999d49f0
+NODE_INSTANCE_TYPE = m1.large
+# This section is the same as smallcluster except for the following settings:
+# KEYNAME=my-other-gsg-keypair
+# NODE_INSTANCE_TYPE = c1.xlarge
+# CLUSTER_SIZE=8
+# VOLUMES = biodata2
+
+# [cluster largecluster]
+# Declares that this cluster uses mediumcluster as defaults
+# EXTENDS=mediumcluster
+# This section is the same as mediumcluster except for the following variables:
+# CLUSTER_SIZE=16
+
+[cluster csmall]
+EXTENDS=base
+CLUSTER_SIZE = 1
+NODE_INSTANCE_TYPE = m1.small
+PLUGINS = ipythondev, ipcluster
+
+[cluster c64]
+EXTENDS=base
+NODE_IMAGE_ID = ami-999d49f0
+CLUSTER_SIZE = 1
+NODE_INSTANCE_TYPE = m1.large
+
+PLUGINS = ipythondev, ipcluster
+
+[cluster xl]
+EXTENDS=c64
+NODE_INSTANCE_TYPE = m1.xlarge
+PLUGINS = ipythondev, ipcluster
+
+[cluster cxl]
+EXTENDS=c64
+NODE_INSTANCE_TYPE = c1.xlarge
+PLUGINS = ipythondev, ipcluster
+
+[cluster quad]
+EXTENDS=base
+NODE_IMAGE_ID = ami-1cad5275
+NODE_INSTANCE_TYPE = cc1.4xlarge
+
+[cluster boulder]
+EXTENDS = csmall
+NODE_IMAGE_ID = ami-999d49f0
+
+[cluster qiime]
+NODE_IMAGE_ID = ami-2faa7346
+CLUSTER_SIZE = 4
+NODE_INSTANCE_TYPE = m1.xlarge
+PLUGINS = ipcluster
+
+[cluster uqiime]
+NODE_IMAGE_ID = ami-2faa7346
+CLUSTER_SIZE = 1
+NODE_INSTANCE_TYPE = t1.micro
+PLUGINS = ipcluster
+
+#############################
+## Configuring EBS Volumes ##
+#############################
+
+# Using EBS volumes with StarCluster is relatively straight forward. You create
+# a [volume] section that represents an EBS volume. The section name is a tag
+# for your volume. This tag is used in the VOLUMES setting in a cluster template
+# to declare that an EBS volume is to be mounted and nfs shared on the cluster.
+# (see the commented VOLUMES setting in the 'smallcluster' template above)
+# Below are some examples of defining and configuring EBS volumes to be used
+# with StarCluster:
+
+# Sections starting with "volume" define your EBS volumes
+# Section name tags your volume e.g.:
+# [volume biodata]
+# (attach 1st partition of volume vol-c9999999 to /home on master node)
+# VOLUME_ID = vol-c999999
+# MOUNT_PATH = /home
+
+# Same volume as above, but mounts to different location
+# [volume biodata2]
+# (attach 1st partition of volume vol-c9999999 to /opt/ on master node)
+# VOLUME_ID = vol-c999999
+# MOUNT_PATH = /opt/
+
+# Another volume example
+# [volume oceandata]
+# (attach 1st partition of volume vol-d7777777 to /mydata on master node)
+# VOLUME_ID = vol-d7777777
+# MOUNT_PATH = /mydata
+
+# Same as oceandata only uses the 2nd partition instead
+# [volume oceandata]
+# (attach 2nd partition of volume vol-d7777777 to /mydata on master node)
+# VOLUME_ID = vol-d7777777
+# MOUNT_PATH = /mydata
+# PARTITION = 2
+
+#####################################
+## Configuring StarCluster Plugins ##
+#####################################
+
+# Sections starting with "plugin" define a custom python class
+# which can perform additional configurations to StarCluster's default routines. These plugins
+# can be assigned to a cluster template to customize the setup procedure when
+# starting a cluster from this template
+# (see the commented PLUGINS setting in the 'smallcluster' template above)
+# Below is an example of defining a plugin called 'myplugin':
+
+# [plugin myplugin]
+# myplugin module either lives in ~/.starcluster/plugins or is
+# in your PYTHONPATH
+# SETUP_CLASS = myplugin.SetupClass
+# extra settings are passed as arguments to your plugin:
+# SOME_PARAM_FOR_MY_PLUGIN = 1
+# SOME_OTHER_PARAM = 2
