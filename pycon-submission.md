@@ -1,6 +1,6 @@
 # Title
 
-IPython in depth: high productivity interactive and parallel python
+IPython & Jupyter in depth: high productivity interactive and parallel python
 
 # Category
 
@@ -16,11 +16,11 @@ Intermediate
 
 # Description
 
-IPython provides tools for interactive and parallel computing that are widely
+IPython and Jupyter provide tools for interactive and parallel computing that are widely
 used in scientific computing, but can benefit any Python developer.
 
-We will show how to use IPython in different ways, as: an interactive shell, an
-embedded shell, a graphical console, a network-aware VM in GUIs, a web-based
+We will show how to use IPython in different ways, as: an interactive shell,
+a graphical console, a network-aware VM in GUIs, a web-based
 notebook with code, graphics and rich HTML, and a high-level framework for
 parallel computing.
 
@@ -38,20 +38,20 @@ their development work with Python. They will learn:
 
 - Tricks from the IPython machinery that are useful in everyday development,
 
-- What the new high-level applications in IPython --the graphical Qt console
+- What the high-level applications in Jupyter --the graphical Qt console
   and web-based notebook-- can do and how they can be used.
 
 - How the concepts IPython is based on form a natural foundation for high-level
   parallel computing with low latency and high throughput.
 
-- How the overall picture of IPython fits together, so that they can better use
+- How the overall picture of IPython and Jupyter fits together, so that they can better use
   its components for the problem at hand.
   
 # Detailed Abstract
 
 IPython started in 2001 simply as a better interactive Python shell. Over the last decade it has grown into a powerful set of interlocking tools that maximize developer productivity in Python while working interactively.
 
-Today, IPython consists of a kernel that executes the user code and provides many features for introspection and namespace manipulation, and tools to control this kernel either in-process or out-of-process thanks to a well-specified communications protocol implemented over ZeroMQ. This architecture allows the core features to be accessed via a variety of clients, each providing unique functionality tuned to a specific use case:
+Today, IPython consists of a kernel that executes user code, provides many features for introspection and namespace manipulation, and tools to control this kernel either in-process or out-of-process thanks to a well specified communications protocol implemented over ZeroMQ. This architecture allows the core features to be accessed via a variety of clients, each providing unique functionality tuned to a specific use case:
 
 * An interactive, terminal-based shell with capabilities beyond the default Python interactive interpreter (this is the classic application opened by the `ipython` command that most users are familiar with).
 
@@ -59,9 +59,11 @@ Today, IPython consists of a kernel that executes the user code and provides man
 
 * A [web-based notebook](http://ipython.org/notebook.html) that can execute code and also contain rich text and figures, mathematical equations and arbitrary HTML. This notebook presents a document-like view with cells where code is executed but that can be edited in-place, reordered, mixed with explanatory text and figures, etc. The notebook provides an interactive experience that combines live code and results with literate documentation and the rich media that modern browsers can display:
 
-![notebook](http://ipython.org/ipython-doc/rel-0.13/_images/ipy_013_notebook_spectrogram.png)
+![Notebook screenshot](http://i.imgur.com/eo2SqS9.png)
 
 * A high-performance, low-latency system for [parallel computing](http://ipython.org/ipython-doc/stable/parallel/parallel_intro.html) that supports the control of a cluster of IPython engines communicating over ZeroMQ, with optimizations that minimize unnecessary copying of large objects (especially numpy arrays). These engines can be controlled interactively while developing and doing exploratory work, or can run in batch mode either on a local machine or in a large cluster/supercomputing environment via a batch scheduler.
+
+These tools also increasingly work with languages other than Python, and we are renaming the language independent frontend components to *Jupyter* in order to make this clearer. The Python kernel we provide and the original terminal-based shell will continue to be called *IPython*.
 
 In this hands-on, in-depth tutorial, we will briefly describe IPython's
 architecture and will then show how to use the above tools for a highly
@@ -83,7 +85,7 @@ productive workflow in Python.
 - Control the namespace of your GUI codes with an IPython kernel.
 - Customizing IPython with profiles.
 
-**The IPython Notebook**
+**The IPython/Jupyter Notebook**
 
 - Basic concepts: the server, the dashboard, your notebooks.
 - A notebook as a rich document: text, code, results and multimedia.
@@ -96,7 +98,7 @@ productive workflow in Python.
 - Basic architecture: the concept of an "interactive IPython cluster".
 - Direct execution of code across engines in a cluster.
 - Dynamic load-balancing of tasks.
-- IPython engines in the cloud (illustrated with Amazon EC2 instances).
+- IPython engines in the cloud (illustrated with Rackspace instances).
 
 # More info
 
@@ -106,6 +108,10 @@ and videos of talks, please see [the project website](http://ipython.org).
 The materials for this tutorial are
 [available on a github repository](https://github.com/ipython/ipython-in-depth).
 
+
 # Additional Notes
 
-*None*
+This is essentially a repeat of a tutorial Fernando Perez gave at Pycon 2014.
+It was apparently a big success, and he was asked to do it again, but he cannot
+make it to this Pycon, so he has asked us to do it. We are both core members of
+the IPython development team.
