@@ -1,4 +1,4 @@
-Python started in 2001 simply as a better interactive Python shell. Over the
+IPython started in 2001 simply as a better interactive Python shell. Over the
 last decade it has grown into a powerful set of interlocking tools that
 maximize developer productivity in Python while working interactively.
 
@@ -36,6 +36,11 @@ ZeroMQ, with optimizations that minimize unnecessary copying of large objects
 developing and doing exploratory work, or can run in batch mode either on a
 local machine or in a large cluster/supercomputing environment via a batch
 scheduler.
+
+These tools also increasingly work with languages other than Python, and we are
+renaming the language independent frontend components to *Jupyter* in order to
+make this clearer. The Python kernel we provide and the original terminal-based
+shell will continue to be called *IPython*.
 
 In this hands-on, in-depth tutorial, we will briefly describe IPython's
 architecture and will then show how to use the above tools for a highly
