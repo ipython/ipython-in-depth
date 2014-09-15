@@ -92,7 +92,7 @@ productive workflow in Python.
 - Basic architecture: the concept of an "interactive IPython cluster".
 - Direct execution of code across engines in a cluster.
 - Dynamic load-balancing of tasks.
-- IPython engines in the cloud (illustrated with Rackspace instances).
+- IPython engines in the cloud (illustrated with Rackspace Compute instances).
 
 # More info
 
