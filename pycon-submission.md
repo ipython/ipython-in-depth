@@ -31,27 +31,21 @@ analysis environments.
 
 # Objectives
 
-At the end of this tutorial, attendees will have an understanding of the
-overall design of IPython not only as a (better) python shell, but as a suite
-of applications they can use and combine in multiple ways in the course of
-their development work with Python. They will learn:
+At the end of this tutorial, attendees will have an understanding of the overall design of Jupyter as a suite of applications they can use and combine in multiple ways in the course of their development work with Python and other languages. They will learn:
 
-- Tricks from the IPython machinery that are useful in everyday development,
+* Tricks from the IPython machinery that are useful in everyday development,
 
-- What the high-level applications in Jupyter --the graphical Qt console
-  and web-based notebook-- can do and how they can be used.
+* What the high-level applications in Jupyter, the web-based notebooks and the graphical Qt console, can do and how they can be used.
 
-- How the concepts IPython is based on form a natural foundation for high-level
-  parallel computing with low latency and high throughput.
+* How the IPython's architecture forms a natural foundation for high-level parallel computing with low latency and high throughput.
 
-- How the overall picture of IPython and Jupyter fits together, so that they can better use
-  its components for the problem at hand.
+* How the overall picture of IPython and Jupyter fits together, so that they can better use its components for the problem at hand.
   
 # Detailed Abstract
 
 IPython started in 2001 simply as a better interactive Python shell. Over the last decade it has grown into a powerful set of interlocking tools that maximize developer productivity in Python while working interactively.
 
-Today, IPython consists of a kernel that executes user code, provides many features for introspection and namespace manipulation, and tools to control this kernel either in-process or out-of-process thanks to a well specified communications protocol implemented over ZeroMQ. This architecture allows the core features to be accessed via a variety of clients, each providing unique functionality tuned to a specific use case:
+Today, Jupyter consists of an IPython kernel that executes user code, provides many features for introspection and namespace manipulation, and tools to control this kernel either in-process or out-of-process thanks to a well specified communications protocol implemented over ZeroMQ. This architecture allows the core features to be accessed via a variety of clients, each providing unique functionality tuned to a specific use case:
 
 * An interactive, terminal-based shell with capabilities beyond the default Python interactive interpreter (this is the classic application opened by the `ipython` command that most users are familiar with).
 
@@ -98,7 +92,7 @@ productive workflow in Python.
 - Basic architecture: the concept of an "interactive IPython cluster".
 - Direct execution of code across engines in a cluster.
 - Dynamic load-balancing of tasks.
-- IPython engines in the cloud (illustrated with Rackspace instances).
+- IPython engines in the cloud (illustrated with Rackspace Compute instances).
 
 # More info
 
@@ -112,6 +106,6 @@ The materials for this tutorial are
 # Additional Notes
 
 This is essentially a repeat of a tutorial Fernando Perez gave at Pycon 2014.
-It was apparently a big success, and he was asked to do it again, but he cannot
-make it to this Pycon, so he has asked us to do it. We are both core members of
+It was apparently a big success and he was asked to do it again. However, since Fernando cannot
+make it to this Pycon, he has asked us to do it. We are both core members of
 the IPython development team.
