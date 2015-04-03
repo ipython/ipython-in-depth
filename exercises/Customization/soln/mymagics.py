@@ -4,7 +4,7 @@ import io
 import os
 import time
 
-from IPython.nbformat import current
+import IPython.nbformat as nbf
 
 class TicToc(object):
     def __init__(self):
@@ -14,7 +14,7 @@ class TicToc(object):
         self.t0 = time.time()
 
     def toc(self, line=''):
-        print self.format_time(time.time() - self.t0)
+        print(self.format_time(time.time() - self.t0))
 
     def format_time(self, dt):
         if dt < 1e-6:
@@ -32,15 +32,15 @@ def load_notebook(filename):
     if not os.path.exists(filename) and not filename.endswith(".ipynb"):
         filename = filename + ".ipynb"
     with io.open(filename) as f:
-        return current.read(f, 'json')
+        return nbf.read(f, as_version=4)
 
 def nbrun(line):
     """given a filename, execute the notebook in IPython"""
     nb = load_notebook(line)
     ip = get_ipython()
-    for cell in nb.worksheets[0].cells:
+    for cell in nb.cells:
         if cell.cell_type == 'code':
-            ip.run_cell(cell.input, silent=True)
+            ip.run_cell(cell.source, silent=True)
     
 def load_ipython_extension(ip):
     tictoc = TicToc()
