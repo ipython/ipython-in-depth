@@ -1,5 +1,5 @@
 from IPython.html.widgets import *
-w = TextWidget()
+w = Text()
 def handle_submit(name, new):
     print(new)
 w.on_trait_change(handle_submit, 'value')

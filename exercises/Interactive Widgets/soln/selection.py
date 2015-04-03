@@ -1,6 +1,6 @@
 from IPython.html.widgets import *
 from IPython.display import display
-w = RadioButtonsWidget(values={"Left": 0, "Center": 1, "Right": 2}, description="Alignment:")
+w = RadioButtons(options={"Left": 0, "Center": 1, "Right": 2}, description="Alignment:")
 display(w)
 
 print(w.value)

@@ -1,7 +1,5 @@
 from IPython.html.widgets import *
-w = HTMLWidget(value="Hello world!")
-w.set_css({
-    'background': 'red',
-    'color': 'yellow',
-})
+w = HTML(value="Hello world!")
+w.color = 'red'
+w.background_color = 'yellow'
 w

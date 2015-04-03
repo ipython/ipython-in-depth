@@ -1,5 +1,5 @@
 from IPython.html.widgets import *
-w = TextWidget()
+w = Text()
 def handle_submit(sender):
     print(sender.value)
     sender.value = ''
