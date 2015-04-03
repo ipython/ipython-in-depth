@@ -4,11 +4,11 @@ def scale_magic(line, cell):
     ns = get_ipython().user_ns
     for v in values:
         assignment = "%s=%r" % (name, v)
-        print assignment
+        print(assignment)
         ns[name] = v
         sys.stdout.flush()
         %tic
-        exec cell in ns
+        exec(cell, ns)
         %toc
 
 ip = get_ipython()
