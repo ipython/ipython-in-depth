@@ -32,7 +32,7 @@ the trait's events for all of the config=True attributes.
 
 from IPython.config.configurable import Configurable
 from IPython.config.application import Application
-from IPython.utils.traitlets import (
+from traitlets import (
     Bool, Unicode, Int, List, Dict
 )
 

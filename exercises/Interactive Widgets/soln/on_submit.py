@@ -1,4 +1,4 @@
-from IPython.html.widgets import *
+from ipywidgets import *
 w = Text()
 def handle_submit(sender):
     print(sender.value)

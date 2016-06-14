@@ -1,4 +1,4 @@
-from IPython.html.widgets import *
+from ipywidgets import *
 from IPython.display import display
 w = TextWidget(value="test")
 display(w)
