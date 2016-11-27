@@ -12,7 +12,7 @@ Intermediate
 
 # Domain Level
 
-Intermediate
+Introductory
 
 # Description
 
@@ -21,8 +21,7 @@ used in scientific computing, but can benefit any Python developer.
 
 We will show how to use IPython in different ways, as: an interactive shell,
 a graphical console, a network-aware VM in GUIs, a web-based
-notebook with code, graphics and rich HTML, and a high-level framework for
-parallel computing.
+notebook with code, graphics and rich HTML.
 
 # Audience 
 
@@ -83,16 +82,16 @@ productive workflow in Python.
 
 - Basic concepts: the server, the dashboard, your notebooks.
 - A notebook as a rich document: text, code, results and multimedia.
-- The IPython display protocol: `__repr__` on acid.
+- The IPython display protocol: `__repr__` for more than just text.
 - Converting notebooks to other formats for sharing, blogging and publication.
 - Sharing your notebooks: [nbviewer](http://nbviewer.ipython.org).
 
-**A brief introduction to `IPython.parallel`** 
+**Last section** 
 
-- Basic architecture: the concept of an "interactive IPython cluster".
-- Direct execution of code across engines in a cluster.
-- Dynamic load-balancing of tasks.
-- IPython engines in the cloud (illustrated with Rackspace Compute instances).
+- Widgets?
+- Libraries that make the most of IPython (dask, pandas, etc.)?
+- Parallel?
+- Deploying with docker?
 
 # More info
 
@@ -105,7 +104,5 @@ The materials for this tutorial are
 
 # Additional Notes
 
-This is essentially a repeat of a tutorial Fernando Perez gave at Pycon 2014.
-It was apparently a big success and he was asked to do it again. However, since Fernando cannot
-make it to this Pycon, he has asked us to do it. We are both core members of
-the IPython development team.
+Versions of this tutorial have been presented at PyCon 2012, 2014, and 2015.
+It has been well received so far, and we would like to do keep teaching about IPython!
