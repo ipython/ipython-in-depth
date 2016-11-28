@@ -1,3 +1,15 @@
+Authors/Presenter. 
+
+Matthias Bussonnier: bussonniermatthias AT gmail.com , Core Developer of IPython/Jupyter.
+Mike Bright: pycon AT mjbright.net,  Solution Architect at HPE OpenNFV Lab Grenoble, long time IPython and Jupyter User and Contributor.
+
+Notes: Box on the Pycon Proposal website are
+
+- Description
+- Audience
+- Outline
+- Additional Notes
+
 # Title
 
 IPython & Jupyter in depth: high productivity interactive python
@@ -28,7 +40,8 @@ of other languages.
 # Audience
 
 Programmers interested in using Python interactively, especially in data
-analysis environments.
+analysis environments. Prior knowledge of Python is best. Some experience
+with Docker for the last quarter of the tutorial would be a plus.
 
 # Objectives
 
@@ -94,12 +107,19 @@ productive workflow in Python.
 - Development workflow: integrating IPython with scripts via the `%run` command.
 - Tools for typical development tasks: timing, profiling, debugging.
 
+We will leave 1 to 2 minutes hands-on for simple subjects like object
+introspection and variable caching. We'll give a couple of 5 minutes exercises
+for profiling and debugging.
+
 **Back to the terminal(s)**
 
 - Demo and discussion of the last added features of the command line interpreter.
 - `IPython.embed`: a useful 'microscope' into your own scripts.
 - Control the namespace of your GUI codes with an IPython kernel.
 - Customizing IPython with profiles.
+
+We'll leave a couple of minutes at the end of this section for user to play
+with multiple profiles and embeded IPython.
 
 **The IPython/Jupyter Notebook**
 
@@ -109,7 +129,10 @@ productive workflow in Python.
 - Converting notebooks to other formats for sharing, blogging and publication.
 - Sharing your notebooks: [nbviewer](http://nbviewer.ipython.org).
 
-**Last section**
+We'll leave 10 minutes for user to create a custom representation for an object
+of their choice and publish their notebook online on nbviewer.
+
+**Cloud hosting and multilanguage**
 
 - Deploying with docker (locally or in the cloud).
 - have the attendees deploy a image that contain the latest development versions.
@@ -129,3 +152,7 @@ The materials for this tutorial are
 Versions of this tutorial have been presented at PyCon 2012, 2014, and 2015. It
 has been well received so far, and we would like to do keep teaching about
 IPython and Jupyter!
+
+https://www.youtube.com/watch?v=XFw1JVXKJss (2012)
+https://www.youtube.com/watch?v=bP8ydKBCZiY (2013)
+https://www.youtube.com/watch?v=05fA_DXgW-Y (2015)
