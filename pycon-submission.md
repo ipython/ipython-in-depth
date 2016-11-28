@@ -31,10 +31,15 @@ Introductory
 IPython and Jupyter provide tools for interactive computing that are widely
 used in scientific computing, but can benefit any Python developer.
 
-We will show how to use IPython in different ways, as: an interactive shell, a
-graphical console, a network-aware VM in GUIs, a web-based notebook with code,
-graphics and rich HTML. We will demonstrate how to deploy a custom environment
-with Docker that not only contain multiple Python kernels as well as a couple
+We will show how to use IPython in different ways, as:
+
+- an interactive shell,
+- a graphical console,
+- a network-aware VM in GUIs,
+- a web-based notebook with code, graphics and rich HTML.
+
+We will demonstrate how to deploy a custom environment
+with Docker that not only contains multiple Python kernels but also a couple
 of other languages.
 
 # Audience
@@ -85,12 +90,12 @@ providing unique functionality tuned to a specific use case:
 
     ![Notebook screenshot](http://jupyter.org/assets/jupyterpreview.png)
 
-  The notebooks also allow for code in multiple language allowing to mix Python
+  The notebooks also allow for code in multiple languages allowing to mix Python
   with Cython, C, R and other languages to access features hard to obain from
   Python.
 
-These tools also increasingly work with languages other than Python, and we are
-renaming the language independent frontend components to *Jupyter* in order to
+These tools also increasingly work with languages other than Python, and we
+renamed the language independent frontend components to *Jupyter* in order to
 make this clearer. The Python kernel we provide and the original terminal-based
 shell will continue to be called *IPython*.
 
@@ -135,7 +140,7 @@ of their choice and publish their notebook online on nbviewer.
 **Cloud hosting and multilanguage**
 
 - Deploying with docker (locally or in the cloud).
-- have the attendees deploy a image that contain the latest development versions.
+- have the attendees deploy a image that contains the latest development versions.
 - show how to write various extensions, and multi language integration.
 
 # More info
@@ -149,7 +154,7 @@ The materials for this tutorial are
 
 # Additional Notes
 
-Versions of this tutorial have been presented at PyCon 2012, 2014, and 2015. It
+Versions of this tutorial have been presented at PyCon 2012, 2014, 2015 and also EuroPython 2016. It
 has been well received so far, and we would like to do keep teaching about
 IPython and Jupyter!
 
