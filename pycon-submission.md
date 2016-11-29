@@ -12,7 +12,7 @@ Notes: Box on the Pycon Proposal website are
 
 # Title
 
-IPython & Jupyter in depth: high productivity interactive python
+IPython and Jupyter in Depth: High productivity, interactive Python
 
 # Category
 
@@ -29,14 +29,15 @@ Introductory
 # Description
 
 IPython and Jupyter provide tools for interactive computing that are widely
-used in scientific computing, but can benefit any Python developer.
+used in scientific computing, education, and data science, but can benefit any
+Python developer.
 
-We will show how to use IPython in different ways, as:
+You will learn how to use IPython in different ways, as:
 
 - an interactive shell,
 - a graphical console,
-- a network-aware VM in GUIs,
-- a web-based notebook with code, graphics and rich HTML.
+- a network-aware VM (Virtual machine) in GUIs,
+- a web-based notebook combining code, graphics and rich HTML.
 
 We will demonstrate how to deploy a custom environment
 with Docker that not only contains multiple Python kernels but also a couple
@@ -45,23 +46,24 @@ of other languages.
 # Audience
 
 Programmers interested in using Python interactively, especially in data
-analysis environments. Prior knowledge of Python is best. Some experience
-with Docker for the last quarter of the tutorial would be a plus.
+analysis environments. Prior knowledge of Python is best. Some prior knowledge
+of Python is helpful. Some experience with Docker would be helpful but not
+required for the last quarter of the tutorial.
 
 # Objectives
 
 At the end of this tutorial, attendees will have an understanding of the
 overall design of Jupyter (and IPython) as a suite of applications they can use
 and combine in multiple ways in the course of their development work with
-Python and other languages. They will learn:
+Python and other programming languages. They will learn:
 
 * Tricks from the IPython machinery that are useful in everyday development,
 
-* What the high-level applications in Jupyter, the web-based notebooks can do
-  and how they can be used.
+* What high-level applications in Jupyter, the web-based notebooks, can do and
+  how these applications can be used.
 
-* How the overall picture of IPython and Jupyter fits together, so that they
-  can better use its components for the problem at hand.
+* How to use IPython and Jupyter together so that they can be best used for the
+  problem at hand.
 
 # Detailed Abstract
 
@@ -78,7 +80,7 @@ providing unique functionality tuned to a specific use case:
 
 * An interactive, terminal-based shell with capabilities beyond the default
   Python interactive interpreter (this is the classic application opened by the
-  `ipython` command that most users are familiar with).
+  `ipython` command that many users have worked with)
 
 * A [web-based notebook](http://jupyter.org/) that can execute
   code and also contain rich text and figures, mathematical equations and
@@ -91,7 +93,7 @@ providing unique functionality tuned to a specific use case:
     ![Notebook screenshot](http://jupyter.org/assets/jupyterpreview.png)
 
   The notebooks also allow for code in multiple languages allowing to mix Python
-  with Cython, C, R and other languages to access features hard to obain from
+  with Cython, C, R and other programming languages to access features hard to obain from
   Python.
 
 These tools also increasingly work with languages other than Python, and we
@@ -105,6 +107,11 @@ productive workflow in Python.
 
 # Outline
 
+Note to reviewers: Each section will take 1/4 of the teaching time, taking into
+account the scheduled snack break. Each section will provide takeaway slides
+and notebooks for the attendee. There will be hands-on time of 5-10 minutes
+during each section for attendees to try out concepts.
+
 **IPython: Interactivity beyond Python**
 
 - Introducing the IPython Notebook as an interactive environment.
@@ -113,8 +120,8 @@ productive workflow in Python.
 - Tools for typical development tasks: timing, profiling, debugging.
 
 We will leave 1 to 2 minutes hands-on for simple subjects like object
-introspection and variable caching. We'll give a couple of 5 minutes exercises
-for profiling and debugging.
+introspection and variable caching. We'll give a couple of 5 minutes hands-on
+exercises for profiling and debugging.
 
 **Back to the terminal(s)**
 
@@ -123,7 +130,7 @@ for profiling and debugging.
 - Control the namespace of your GUI codes with an IPython kernel.
 - Customizing IPython with profiles.
 
-We'll leave a couple of minutes at the end of this section for user to play
+We'll leave 5-10 minutes at the end of this section for user to play
 with multiple profiles and embeded IPython.
 
 **The IPython/Jupyter Notebook**
@@ -142,6 +149,8 @@ of their choice and publish their notebook online on nbviewer.
 - Deploying with docker (locally or in the cloud).
 - have the attendees deploy a image that contains the latest development versions.
 - show how to write various extensions, and multi language integration.
+- introduce JupyterHub and its use for groups
+
 
 # More info
 
@@ -155,7 +164,7 @@ The materials for this tutorial are
 # Additional Notes
 
 Versions of this tutorial have been presented at PyCon 2012, 2014, 2015 and also EuroPython 2016. It
-has been well received so far, and we would like to do keep teaching about
+has been well received so far, and we would like to keep teaching about
 IPython and Jupyter!
 
 https://www.youtube.com/watch?v=XFw1JVXKJss (2012)
