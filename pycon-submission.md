@@ -1,7 +1,8 @@
 Authors/Presenter. 
 
-Matthias Bussonnier: bussonniermatthias AT gmail.com , Core Developer of IPython/Jupyter.
-Mike Bright: pycon AT mjbright.net,  Solution Architect at HPE OpenNFV Lab Grenoble, long time IPython and Jupyter User and Contributor.
+- Matthias Bussonnier: bussonniermatthias AT gmail.com , Core Developer of IPython/Jupyter.
+- Mike Bright: pycon AT mjbright.net,  Solution Architect at HPE OpenNFV Lab Grenoble, long time IPython and Jupyter User and Contributor.
+- Min RK: benjaminrk AT gmail.com Core Developer of IPython/Jupyter
 
 Notes: Box on the Pycon Proposal website are
 
