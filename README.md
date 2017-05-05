@@ -1,25 +1,25 @@
 # IPython in depth tutorial
 
-In its current form, this tutorial is meant to be executed with IPython 2.0 or
-newer.  You can find our installation instructions [here](http://ipython.org/install.html).
+In its current form, this tutorial is meant to be executed with Jupyter notebook
+5.0, using IPython 6.0 or newer on Python 3, the latest IPython version
+compatible with Python 2 is IPython 5.x that may not have the exact same
+behavior and all the features presented in this tutorial. 
 
-If you prefer using pip, you can also run:
 
-	pip install --upgrade ipython[notebook]
-
-which should give you all the necessary dependencies.
-
+You can find our installation instructions [for
+IPython](http://ipython.org/install.html) and [Jupyter
+notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 
 To get the tutorial, checkout the `ipython-in-depth` repo:
 
     git clone https://github.com/ipython/ipython-in-depth
 
-Or just
-[download current master](https://github.com/ipython/ipython-in-depth/zipball/master)
-and unzip it.
+Or just [download current
+master](https://github.com/ipython/ipython-in-depth/zipball/master) and unzip
+it.
 
-At the command line, you can do this with (depending on whether your system
-uses wget or curl):
+At the command line, you can do this with (depending on whether your system uses
+wget or curl):
 
     wget https://github.com/ipython/ipython-in-depth/zipball/master -O ipython-in-depth.zip
 
@@ -29,8 +29,12 @@ or
 
 And then:
 
-	unzip ipython-in-depth.zip
+    unzip ipython-in-depth.zip
+
+Change directory inside the directory newly created:
+
+    cd ipython-in-depth
 
 You can then start the IPython notebook server at a terminal with:
 
-    ipython notebook
+    jupyter notebook
