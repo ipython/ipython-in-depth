@@ -38,3 +38,16 @@ Change directory inside the directory newly created:
 You can then start the IPython notebook server at a terminal with:
 
     jupyter notebook
+
+
+## Docker images
+
+The tutorial do reference a couple of docker images that are quite heavy
+(several GB). Please do not download them on conference wifi. You may want to
+populate the Docker Cache you may want to use the following command ahead of
+time:
+
+  $ docker pull jupyter/data-science-notebook
+
+The image contains a installation of the Jupyter notebook with R, Julia,
+Python2, Python3 and a couple of library for each language.
