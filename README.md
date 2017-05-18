@@ -47,7 +47,7 @@ The tutorial do reference a couple of docker images that are quite heavy
 populate the Docker Cache you may want to use the following command ahead of
 time:
 
-  $ docker pull jupyter/data-science-notebook
+  $ docker pull jupyter/datascience-notebook
 
 The image contains a installation of the Jupyter notebook with R, Julia,
 Python2, Python3 and a couple of library for each language.
