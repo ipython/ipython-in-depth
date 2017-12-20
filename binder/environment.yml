@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cython
+  - ipython
+  - ipyparallel
+  - ipywidgets
+  - numpy
+  - matplotlib
+  - mpi4py
+  - networkx
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - sympy
