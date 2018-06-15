@@ -5,25 +5,31 @@ JupyterLab is based on a flexible application plugin system provided by Phosphor
 In this tutorial we’ll walk users thought the best way to make use of JupyterLab, how to transition from the “classic” Jupyter Notebook frontend to JupyterLab, and how to make the best use of the new powerful features of JupyterLab.
 
   
+You (should) be provided with red and green sticky notes. If you have any question and concern or need help, stick the red sticky note visible on back of your laptop's screen. A helper will come see you, or the speaker will take time to get questions. 
 
-Outline. 
+If all is fine, or we're too slow for you, stick the green sticky note to the
+back of your laptop screen. 
 
-// Sticky notes red/green
+At each break, write a thing you understood of liked on the green sticky note,
+a thing you did not like or found hard on the red one. When exiting the room,
+stick them to the door frame. Make sure to get new sticky notes for the next
+section. !
 
-1.  Overview of JupyterLab
+## Overview of JupyterLab
 
-  0-0:10 (10 min) - introduction of who we are, and others in the room that can help, and rough outline of schedule, explaining of red/green sticky notes, quick installation notes or binder instructions
-  - We will be using Conda and provide the necessary commands to get everything working. (as an example, see the instructions in the ipywidgets tutorial readme:https://github.com/mwcraig/scipy2017-jupyter-widgets-tutorial) 
+###  0-0:10 (10 min) - introduction of who we are, and others in the room that can help, and rough outline of schedule, explaining of red/green sticky notes, quick installation notes or binder instructions
+  - We will be using Conda and provide the necessary commands to get everything working See 
+      https://github.com/jupyter/scipy2018-jupyterLab-tutorial
   - If you are not using Conda, we’ll be here to help you but will not make your case a priority.
-  - There will be a binder available, but do not rely on the conference wifi.
+  - There will likely be a binder available, but do not rely on the conference wifi.
   - hopefully should be done before tutorial
   - If there are improvements to JupyterLab that you observe, or is something is confusing to you, please write it down and tell us at the break.
-  MATTHIAS 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
+###  MATTHIAS 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
     - Respond to FAQ:
       - Why JupyterLab ?
       - Can you get Lab and notebook at the same time: YES
       - No difference in file format; Notebooks files are the same
-  JASON? 0:25-0:45 (20 min): Tour of The User Interface
+###  JASON? 0:25-0:45 (20 min): Tour of The User Interface
   - if it does not work, hop on binder.
   - Point to documentation, follow the naming conventions, maybe follow that outline
   - various existing default panel, and layout, file browser, support of multiple file types, multiple file viewers for single file
@@ -32,7 +38,8 @@ Outline.
   - Dragging ui
   - Inspector
   - Can follow the outline in the pydata seattle talk or scipy 2017 lightning talk (see https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative)
-  0:45-1:05 (20 min): Exercise (and help installation issues if needed):
+
+###  0:45-1:05 (20 min): Exercise (and help installation issues if needed):
     Keep in mind, if something is not intuitive, or not in the place you expected it, write it down, and give it to us at the break.
   - Create a new python 3 notebook. 
     - Create a markdown cell. 
@@ -66,27 +73,27 @@ Outline.
   - Opening document with several viewers. Live markdown rendering.
   - CSV viewing
   - Json/GeoJson.
-  1:05-1:15 (10 min): break 10min + sticky notes
-  1:15-1:20 (5 min) : Q.A. 5 min .
-2. Workflows around executing code
-  1:20-1:30 (10 min): Minor Notebook UI interface difference
+### 1:05-1:15 (10 min): break 10min + sticky notes
+### 1:15-1:20 (5 min) : Q.A. 5 min .
+## Workflows around executing code
+###  1:20-1:30 (10 min): Minor Notebook UI interface difference
   1. How to author markdown and equations
   2. Collapsible cells
   3. drag cells
   4. javascript rendering restrictions
   5. creating new view of outputs
-  1:30-1:55 (25 min): Attaching kernels to multiple documents
+###  1:30-1:55 (25 min): Attaching kernels to multiple documents
     1. R-markdown like workflow
     2. Developing libraries with notebook and Python files attached to same kernel
-  1:55-2:10 (15 min) Exercise
+###  1:55-2:10 (15 min) Exercise
   - binding multiple documents to the same kernel (Section II)
     - New Console for Notebook
     - R-Markdown workflow.
     - Python code file + console workflow
     - Open in classic notebook, modify, save and reopen in Lab.
-  2:10-2:25 (15min)  break 10 min + sticky notes + Q.A 5min
-3. Customizing JupyterLab
-  2:25-2:50 (35min)
+###  2:10-2:25 (15min)  break 10 min + sticky notes + Q.A 5min
+## Customizing JupyterLab
+###  2:25-2:50 (35min)
   1. Changing editor settings
   2. Changing theme
   3. Json config system over
@@ -97,7 +104,7 @@ Outline.
       2. Assign new Keyboard shortcut to an existing action.
     2. add a keyboard shortcut (restart and run all)
     3. change an editor setting 
-4. 2:50-3:15 (25min) - Workflows around Widgets
+## 2:50-3:15 (25min) - Workflows around Widgets
   1. Introduction to widgets and libraries like bqplot, ipyvolume, pythreejs, etc.
   2. Mirroring widget output
   3. Exercise:
@@ -105,7 +112,7 @@ Outline.
     2. Interact
     3. Simple slider + Graph 
     4. bqplot graph controlling another graph
-5. Going further (3:15-3:50, 35 min) :
+## Going further (3:15-3:50, 35 min) :
   1. Extending JupyterLab – scratching the surface
     - everything is plugin
     - installing a plugin, example
@@ -123,6 +130,6 @@ Outline.
       - and/or
       - Modifying and installing mimetype plugin
     - Point to cookie Cutter.
-6. Mention JupyterLab in a multiuser environment: point to jupyterlab docs
-7. Mention sprints!
-8. 3:50-4:00 QA, Question
+## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
+## Mention sprints!
+## 3:50-4:00 QA, Question

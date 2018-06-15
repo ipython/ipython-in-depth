@@ -32,6 +32,8 @@ $ activate jupyterlab-2018
 
 ```
 
+If you open multiple terminal windows make sure to activate the environment in each of them.
+
 
 ## Tutorial materials
 
