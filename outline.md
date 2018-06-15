@@ -35,49 +35,18 @@ section. !
   - various existing default panel, and layout, file browser, support of multiple file types, multiple file viewers for single file
   - Command palette
   - Important shortcuts
-  - Dragging ui
-  - Inspector
   - Can follow the outline in the pydata seattle talk or scipy 2017 lightning talk (see https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative)
 
-###  0:45-1:05 (20 min): Exercise (and help installation issues if needed):
-    Keep in mind, if something is not intuitive, or not in the place you expected it, write it down, and give it to us at the break.
-  - Create a new python 3 notebook. 
-    - Create a markdown cell. 
-      - Write some markdown with Bold, italic and Math. 
-    - Create a code cell and evaluate it.
-      - Try importing Pandas, 
-      - use `pandas?` to get the help on the pandas library.
-      - try `pandas.D<tab>` to get tab completion on the pandas library. 
-        - note that it can take a few second the first time the library get inspected to get result. 
-        - Complete to `DataFrame(` place the cursor after the pen bracket and press `Shift-Tab` to get quick help. 
-        - To always see the info about the current function you can open the inspector via the Cmd-I/Ctrl-I or via the command palette. 
-        - Change the inspector layout to be side-by-side with the notebook.
-        - use panda’s `read_csv`  to load `'demo/data/iris.csv'` into a dataframe, display this dataframe
-    - Move a cell by dragging
-    - Collapse and expand an input and output
-    - Enable output scrolling in a cell that has lots of output
-    - “Create new view for output” in the context menu of an output. Execute the cell again to see the mirrored output update
-    - Open the inspector and place it side-by-side with the notebook. Type a command to see the help pop up.
-    - Open a long notebook. Do “New View into File” from the tab context menu. Scroll down to the bottom of the notebook in one frame, and drag a cell from the top of the file to the bottom by dragging between the two windows.
-  - Create a new python notebook and put it side by side with the first one. Copy a cell by dragging a cell from the first notebook to this notebook.
-  - get several notebooks/python/data files opens next to each other to prepare next session
-    - open the `demo/data/iris.csv` and other data files in separate windows.
-    - You can duplicate one of the file and use right-click to open both in a viewer an editor. See how modification in one is reflected immediately in the Other.
-  - Creating new document/notebook/terminal/console
-  - Refresh to see the interface stays
-  - (Maybe introduce workspaces?)
-  - arranging things side-by-side. Come up with specific layouts they have to get
-  - single-document mode
-  - Use keyboard shortcuts to use command palette
-  - Open same notebook in classic notebook
-  - Opening document with several viewers. Live markdown rendering.
-  - CSV viewing
-  - Json/GeoJson.
+###  0:45-1:05 (20 min): Exercise 1 (and help installation issues if needed):
+
+Look into the Exercide 1 folder, and follow the instruction in `Exercise-1.md`
+
 ### 1:05-1:15 (10 min): break 10min + sticky notes
 ### 1:15-1:20 (5 min) : Q.A. 5 min .
 ## Workflows around executing code
 ###  1:20-1:30 (10 min): Minor Notebook UI interface difference
   1. How to author markdown and equations
+  2. Dragging ui
   2. Collapsible cells
   3. drag cells
   4. javascript rendering restrictions
@@ -85,8 +54,8 @@ section. !
 ###  1:30-1:55 (25 min): Attaching kernels to multiple documents
     1. R-markdown like workflow
     2. Developing libraries with notebook and Python files attached to same kernel
-###  1:55-2:10 (15 min) Exercise
-  - binding multiple documents to the same kernel (Section II)
+###  1:55-2:10 (15 min) Exercise 2
+  - binding multiple documents to the same kernel
     - New Console for Notebook
     - R-Markdown workflow.
     - Python code file + console workflow
@@ -98,7 +67,7 @@ section. !
   2. Changing theme
   3. Json config system over
   4. Changing keyboard shortcuts
-  5. Exercise (10 min)
+  5. Exercise 3 (10 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
@@ -107,7 +76,7 @@ section. !
 ## 2:50-3:15 (25min) - Workflows around Widgets
   1. Introduction to widgets and libraries like bqplot, ipyvolume, pythreejs, etc.
   2. Mirroring widget output
-  3. Exercise:
+  3. Exercise 4:
     1. Making sure widgets works:
     2. Interact
     3. Simple slider + Graph 
@@ -125,7 +94,7 @@ section. !
     - getting started bootstrapping custom plugin
       - Walkthrough of theme plugin
       - Walkthrough of simple mimetype rendering plugin
-    - Exercise:
+    - Exercise 4:
       - Modifying and installing theme plugin
       - and/or
       - Modifying and installing mimetype plugin
