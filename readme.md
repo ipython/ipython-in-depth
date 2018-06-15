@@ -22,7 +22,8 @@ non-anaconda installations will not be a priority during the tutorial.
 2. Create a conda environment:
 
 ```
-$ conda create -n jupyterlab-2018 jupyter notebook jupyterlab --yes
+$ conda config --add channels conda-forge
+$ conda create -n jupyterlab-2018 jupyter notebook jupyterlab pandas --yes
 
 # Mac/Linux:
 $ source activate jupyterlab-2018
