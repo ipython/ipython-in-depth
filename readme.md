@@ -23,7 +23,7 @@ non-anaconda installations will not be a priority during the tutorial.
 
 ```
 $ conda config --add channels conda-forge
-$ conda create -n jupyterlab-2018 jupyter notebook jupyterlab pandas --yes
+$ conda create -n jupyterlab-2018 notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs --yes
 
 # Mac/Linux:
 $ source activate jupyterlab-2018
