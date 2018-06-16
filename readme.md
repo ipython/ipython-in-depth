@@ -1,35 +1,35 @@
-# SciPy 2018 JupyterLab tutorial. 
+# SciPy 2018 JupyterLab tutorial.
 
 This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during SciPy 2018.
 
-# Installation instructions
+# Installation
 
 We'd like attendees to read the following section and install the required
-software ahead of time. We'll run through the tutorial by assuming that the
-wireless connection may be unreliable.
+software ahead of time. We may ask you to update versions of the software more
+closely to the tutorial date.
 
-Do not rely on cloud hosting to follow this tutorial. If possible comes to the
-tutorial with a computer where you have administrative privileges.
+Please do not rely on cloud hosting to follow this tutorial, as the network
+connection may be unreliable. If possible, come to the tutorial with a computer
+where you have administrative privileges.
 
-We'll assume you are using an Anaconda python distribution. Yo can come with a
-non anaconda python distribution we'll do our best to help you, but
-non-anaconda installations will not be a priority during the tutorial. 
+We'll assume you are using an Anaconda Python distribution (such as Anaconda or
+miniconda). If you choose to work with a different Python distribution, we'll do
+our best to help you, but you may have to solve any difficulties on your own.
 
-## install steps:
+## Software installation
 
-1. You can install either the full [anaconda distribution](https://www.continuum.io/downloads) (very extensive, but large) or [miniconda](https://conda.io/miniconda.html) (much smaller, only essential packages).
+1. Install either the full [anaconda distribution](https://www.continuum.io/downloads) (very extensive, but large) or [miniconda](https://conda.io/miniconda.html) (much smaller, only essential packages).
 
 2. Create a conda environment:
 
 ```
-$ conda config --add channels conda-forge
-$ conda create -n jupyterlab-2018 notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs --yes
+$ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs --yes
 
 # Mac/Linux:
-$ source activate jupyterlab-2018
+$ conda activate scipy18jlab
 
 # Windows:
-$ activate jupyterlab-2018
+$ conda activate scipy18jlab
 
 ```
 
@@ -41,16 +41,13 @@ If you open multiple terminal windows make sure to activate the environment in e
 To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
 ```
-git clone https://github.com/jupyter/scipy2018-jupyterLab-tutorial
+git clone https://github.com/jupyterlab/scipy2018-jupyterLab-tutorial
 ```
 
-update :
+To update the materials:
 ```
 $ cd scipy2018-jupyterLab-tutorial
 $ git pull
 ```
 
-Feel free to send Pull request to update the material if things are unclear.
-
-
-
+Feel free to send a pull request to update these materials if things are unclear.
