@@ -23,7 +23,7 @@ our best to help you, but you may have to solve any difficulties on your own.
 2. Create a conda environment:
 
 ```
-$ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs --yes
+$ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs pip --yes
 
 $ conda activate scipy18jlab
 
