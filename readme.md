@@ -2,7 +2,7 @@
 
 This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during SciPy 2018.
 
-During the tutorial, feel free to get on the `jupyterlab` channel of scipy2018.slack.com for help and updates.
+During the tutorial, feel free to get on the `jupyterlab` channel of https://scipy2018.slack.com/ for help and updates.
 
 # Installation
 
