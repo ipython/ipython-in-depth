@@ -23,12 +23,12 @@ our best to help you, but you may have to solve any difficulties on your own.
 2. Create a conda environment:
 
 ```
-$ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs pip --yes
+$ conda create -c conda-forge -n scipy18jlab notebook=5.5 jupyterlab pandas nodejs bqplot ipyvolume pythreejs pip python=3.6 --yes
 
 $ conda activate scipy18jlab
 
 # to use widgets
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension
 ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them.
