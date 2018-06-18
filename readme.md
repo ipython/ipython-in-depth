@@ -23,14 +23,12 @@ our best to help you, but you may have to solve any difficulties on your own.
 2. Create a conda environment:
 
 ```
-$ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs --yes
+$ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs bqplot ipyvolume pythreejs pip --yes
 
-# Mac/Linux:
 $ conda activate scipy18jlab
 
-# Windows:
-$ conda activate scipy18jlab
-
+# to use widgets
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot
 ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them.
@@ -50,4 +48,4 @@ $ cd scipy2018-jupyterLab-tutorial
 $ git pull
 ```
 
-Feel free to send a pull request to update these materials if things are unclear.
+Feel free to open an issue or send a pull request to update these materials if things are unclear.

@@ -102,7 +102,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   2. Changing theme
   3. Json config system overvie
   4. Changing keyboard shortcuts
-  5. Exercise 3 (10 min)A
+  5. Exercise 3 (10 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
@@ -124,6 +124,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   1. Extending JupyterLab – scratching the surface
     - everything is plugin
     - installing a plugin, example
+      - rendere : https://github.com/jupyterlab/jupyter-renderers
       - Plotly could be a fun one (https://github.com/plotly/jupyterlab-chart-editor)
     - high-level walkthrough of what happens when a plugin is installed/enabled
       - requires npm
