@@ -1,7 +1,5 @@
 # SciPy 2018 JupyterLab tutorial.
 
-[![Join the chat at https://gitter.im/jupyterlab/scipy2018-jupyterLab-tutorial](https://badges.gitter.im/jupyterlab/scipy2018-jupyterLab-tutorial.svg)](https://gitter.im/jupyterlab/scipy2018-jupyterLab-tutorial?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during SciPy 2018.
 
 # Installation
@@ -38,9 +36,6 @@ $ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-three
 ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them.
-
-Join the [gitter channel]((https://badges.gitter.im/jupyterlab/scipy2018-jupyterLab-tutorial.svg)](https://gitter.im/jupyterlab/scipy2018-jupyterLab-tutorial?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) for updateson install instructions or if you have any questions.
-
 
 ## Tutorial materials
 
