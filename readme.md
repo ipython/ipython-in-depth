@@ -28,7 +28,7 @@ $ conda create -c conda-forge -n scipy18jlab notebook jupyterlab pandas nodejs b
 $ conda activate scipy18jlab
 
 # to use widgets
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot
 ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them.
