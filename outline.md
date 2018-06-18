@@ -96,11 +96,11 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ## Customizing JupyterLab
 
-###  2:25-2:50 (35min)
+###  2:25-2:50 (35min, Jason)
 
   1. Changing editor settings
   2. Changing theme
-  3. Json config system overvie
+  3. Json config system overview
   4. Changing keyboard shortcuts
   5. Exercise 3 (10 min)
     1. change a keyboard shortcut
@@ -109,7 +109,7 @@ Write one good thing on the green sticky note, one bad on the red one.
     2. add a keyboard shortcut (restart and run all)
     3. change an editor setting 
     
-## 2:50-3:15 (25min) - Workflows around Widgets
+## 2:50-3:15 (25min) - Workflows around Widgets (Jason)
 
   1. Introduction to widgets and libraries like bqplot, ipyvolume, pythreejs, etc.
   2. Mirroring widget output
