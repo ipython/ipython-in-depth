@@ -31,6 +31,10 @@ $ source activate jupyterlab-2018
 # Windows:
 $ activate jupyterlab-2018
 
+# to use widgets
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager 
+$ jupyter labextension install jupyter-threejs ipyvolume
+
 ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them.
