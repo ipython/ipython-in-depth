@@ -18,17 +18,21 @@ our best to help you, but you may have to solve any difficulties on your own.
 
 ## Software installation
 
-1. Install either the full [anaconda distribution](https://www.anaconda.com/download/) (very large, includes lots of conda packages by default) or [miniconda](https://conda.io/miniconda.html) (much smaller, with only essential packages by default, but any conda package can be installed).
+1. Install either the full [anaconda
+   distribution](https://www.anaconda.com/download/) (very large, includes lots
+   of conda packages by default) or
+   [miniconda](https://conda.io/miniconda.html) (much smaller, with only
+   essential packages by default, but any conda package can be installed).
 
 2. Create a conda environment:
 
 ```
-$ conda create -c conda-forge -n scipy18jlab notebook=5.5 jupyterlab pandas nodejs bqplot ipyvolume pythreejs pip python=3.6 --yes
+$ conda create -c conda-forge -n scipy18jlab notebook=5.5 jupyterlab pandas=0.33.1 nodejs=9.11 bqplot ipyvolume pythreejs pip python=3.6 --yes
 
 $ conda activate scipy18jlab
 
 # to use widgets
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
 ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them.
