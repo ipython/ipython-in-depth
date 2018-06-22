@@ -34,8 +34,8 @@ git clone https://github.com/jupyterlab/scipy2018-jupyterLab-tutorial
 
 To update the materials:
 ```
-$ cd scipy2018-jupyterLab-tutorial
-$ git pull
+cd scipy2018-jupyterLab-tutorial
+git pull
 ```
 
 Feel free to open an issue or send a pull request to update these materials if things are unclear.
