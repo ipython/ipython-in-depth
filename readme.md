@@ -26,24 +26,7 @@ our best to help you, but you may have to solve any difficulties on your own.
    [miniconda](https://conda.io/miniconda.html) (much smaller, with only
    essential packages by default, but any conda package can be installed).
 
-2. Create a conda environment:
-
-```
-# Create the conda environment with specific packages
-conda create -n scipy18jlab -c conda-forge --yes python=3.6 pip cookiecutter=1.6 notebook=5.5  pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
-
-# Activate the conda environment
-conda activate scipy18jlab
-
-# Install extra JupyterLab extensions
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
-```
-
-If you open multiple terminal windows make sure to activate the environment in each of them.
-
-## Tutorial materials
-
-To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
+2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
 ```
 git clone https://github.com/jupyterlab/scipy2018-jupyterLab-tutorial
@@ -56,3 +39,26 @@ $ git pull
 ```
 
 Feel free to open an issue or send a pull request to update these materials if things are unclear.
+
+3. Set up your environment:
+
+Create a conda environment
+
+```
+cd scipy2018-jupyterLab-tutorial
+conda env create -f environment.yml
+```
+
+Activate the conda environment
+
+```
+conda activate scipy18jlab
+```
+
+Install extra JupyterLab extensions
+
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
+```
+
+If you open multiple terminal windows make sure to activate the environment in each of them.
