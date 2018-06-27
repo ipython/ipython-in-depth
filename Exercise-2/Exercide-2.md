@@ -17,18 +17,23 @@ it down (for example on the red sticky note), and give it to us at the break.
     - Do “New View into File” from the tab context menu. 
     - Scroll down to the bottom of the notebook in one frame, and drag a cell from the top of the file to the bottom by dragging between the two windows.
 
-- Try arranging different layout, and refresh the page. Get a feeling of which layout element persist across refresh
-    - TODO :arranging things side-by-side. Come up with specific layouts they have to get
-    - Try to find information about "single-document mode"
-  
+## Files + consoles
 - binding multiple documents to the same kernel (Section II)
     - New Console for Notebook
-    - R-Markdown workflow.
+    - R-Markdown workflow. - live editing demo
     - Python code file + console workflow
     - Open in classic notebook, modify, save and reopen in Lab.
     - Try creating new document/notebook/terminal/console
-    
-    
-- Look in the help menu how to open same notebook in classic notebook
 
-        
+- Try arranging different layout, and refresh the page. Get a feeling of which layout element persist across refresh
+    - TODO :arranging things side-by-side. Come up with specific layouts they have to get
+    - Try to find information about "single-document mode"
+
+
+
+
+- TODO : CSV viewing
+- TODO : Json/GeoJson.
+
+
+- Look in the help menu how to open same notebook in classic notebook

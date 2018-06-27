@@ -14,9 +14,7 @@ Please do not rely on cloud hosting to follow this tutorial, as the network
 connection may be unreliable. If possible, come to the tutorial with a computer
 where you have administrative privileges.
 
-We'll assume you are using a recent Anaconda Python distribution (such as Anaconda or
-Miniconda). If you choose to work with a different Python distribution, we'll do
-our best to help you, but you may have to solve any difficulties on your own.
+For this tutorial, we are standardizing on a conda-based python distribution (miniconda or Anaconda). We may not be able to help with installation issues if you are using a different python distribution.
 
 ## Software installation
 
