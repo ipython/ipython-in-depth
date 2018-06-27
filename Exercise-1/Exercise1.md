@@ -35,7 +35,7 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
         - Use the command palette the find the Keyboard shortcut to open the inspector.
         - Change the inspector layout to be side-by-side with the notebook.
         - Type `pandas.read_csv(` to see the help pop up. 
-    - TODO: use panda’s `read_csv` to load `'../demo/data/iris.csv'` into a dataframe, display this dataframe
+    - (TODO: do the answer key) use panda’s `read_csv` to load `'../demo/data/iris.csv'` into a dataframe, display this dataframe
 
 
 # More advanced notebooks

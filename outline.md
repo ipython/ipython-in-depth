@@ -47,12 +47,12 @@ exercise try to think first:
 
   - There will likely be a binder available, but do not rely on the conference wifi.
 
-###  MATTHIAS 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
+###  JASON 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
     - Respond to FAQ:
       - Why JupyterLab ?
       - Can you get Lab and notebook at the same time: YES
       - No difference in file format; Notebooks files are the same
-###  JASON? 0:25-0:45 (20 min): Tour of The User Interface
+###  JASON 0:25-0:45 (20 min): Tour of The User Interface
   - if it does not work, hop on binder if it works
   - Point to documentation, follow the naming conventions, maybe follow that outline
   - various existing default panel, and layout, file browser, support of multiple file types, multiple file viewers for single file
@@ -61,7 +61,7 @@ exercise try to think first:
   - Important shortcuts
   - Can follow the outline in the pydata seattle talk or scipy 2017 lightning talk (see https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative)
 
-###  0:45-1:05 (20 min): Exercise 1 (and help installation issues if needed):
+###  MATTHIAS 0:45-1:05 (20 min): Exercise 1 (and help installation issues if needed):
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
 
@@ -73,21 +73,26 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ## Workflows around executing code
 
-###  1:20-1:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
+###  MATTHIAS 1:20-1:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
 
-  1. How to author markdown and equations
-  2. Dragging ui
-  2. Collapsible cells
-  3. drag cells, inside notebook and between views of files.
-  4. javascript rendering restrictions
-  5. creating new view of outputs
+  1. Arranging tabs through dragging
+  2. How to author markdown and equations
+  3. Collapsible cells
+  4. drag cells, inside notebook and between views of files.
+  3. Enable scrolling on outputs
+  6. creating new view of outputs
+  5. javascript rendering restrictions
 
-###  1:30-1:55 (20 min): Attaching kernels to multiple documents
+###  MATTHIAS 1:30-1:45 (15 min): Attaching kernels to multiple documents
 
   1. Executing code in a markdown file using an attached console.
   2. Developing libraries with notebook and Python files attached to same kernel
+  3. Reloading modules?
+  4. Create terminal, work with terminal next to code file and console. Maybe using ipython in terminal.
+  5. Attaching a code console to the same kernel as a notebook.
 
-###  1:55-2:10 (10 min) Exercise 2
+
+###  MATTHIAS 1:55-2:15 (10 min) Exercise 2
 
   - binding multiple documents to the same kernel
     - New Console for Notebook
@@ -101,13 +106,14 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ## Customizing JupyterLab
 
-###  2:25-2:50 (35min, Jason)
+###  MATTHIAS 2:25-2:50 (20min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
-  5. Exercise 3 (10 min)
+
+### Exercise 3 (15 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
@@ -142,7 +148,7 @@ Write one good thing on the green sticky note, one bad on the red one.
     - Exercise 4:
       - Modifying and installing theme plugin
       - and/or
-      - Modifying and installing mimetype plugin
+      - Modifying and installing mimetype plugin. Certificate of accomplishment plugin?
     - Point to cookie Cutter.
 ## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
 ## Mention sprints!
