@@ -2,14 +2,33 @@
 
 **These notes are for the presenters.**
 
-For the last two years the Jupyter team has been working on the new Jupyter frontend: JupyterLab. While JupyterLab does of course allow the use of Jupyter Notebooks, it goes beyond the classic Jupyter Notebook by providing a flexible and extensible web application with a set of reusable components. Users can arrange multiple notebooks, text editors, terminals, output areas, and custom components using tabs and collapsible sidebars. These components are carefully designed to enable the user to use them together or separately (for example, a user can send code from a file to a console with a keystroke, or can pop out an output from a notebook to work with it alone).
+For the last two years the Jupyter team has been working on the new Jupyter
+frontend: JupyterLab. While JupyterLab does of course allow the use of Jupyter
+Notebooks, it goes beyond the classic Jupyter Notebook by providing a flexible
+and extensible web application with a set of reusable components. Users can
+arrange multiple notebooks, text editors, terminals, output areas, and custom
+components using tabs and collapsible sidebars. These components are carefully
+designed to enable the user to use them together or separately (for example, a
+user can send code from a file to a console with a keystroke, or can pop out an
+output from a notebook to work with it alone).
 
-JupyterLab is based on a flexible application plugin system provided by PhosphorJS that makes it easy to customize existing components or extend it with new components. For example, users can install or write third-party plugins to view custom file formats, such as GeoJSON, interact with external services, such as Dask or Apache Spark, or display their data in effective and useful ways, such as interactive maps, tables, or plots.
+JupyterLab is based on a flexible application plugin system provided by
+PhosphorJS that makes it easy to customize existing components or extend it
+with new components. For example, users can install or write third-party
+plugins to view custom file formats, such as GeoJSON, interact with external
+services, such as Dask or Apache Spark, or display their data in effective and
+useful ways, such as interactive maps, tables, or plots.
 
-In this tutorial we’ll walk users thought the best way to make use of JupyterLab, how to transition from the “classic” Jupyter Notebook frontend to JupyterLab, and how to make the best use of the new powerful features of JupyterLab.
+In this tutorial we’ll walk users thought the best way to make use of
+JupyterLab, how to transition from the “classic” Jupyter Notebook frontend to
+JupyterLab, and how to make the best use of the new powerful features of
+JupyterLab.
 
 
-You (should) be provided with red and green sticky notes. If you have any question and concern or need help, stick the red sticky note visible on back of your laptop's screen. A helper will come see you, or the speaker will take time to get questions.
+You (should) be provided with red and green sticky notes. If you have any
+question and concern or need help, stick the red sticky note visible on back of
+your laptop's screen. A helper will come see you, or the speaker will take time
+to get questions.
 
 If all is fine, or we're too slow for you, stick the green sticky note to the
 back of your laptop screen.
@@ -31,8 +50,10 @@ Bussonnier, two long standing members of the Jupyter Project. We have a number
 of helpers in the room. Attendees should have been given red/green
 sticky notes.
 
-By now you should have installed JupyterLab following the instructions in the readme.
-For this tutorial, we are standardizing on a conda-based python distribution (miniconda or Anaconda). We may not be able to help with installation issues if you are using a different python distribution.
+By now you should have installed JupyterLab following the instructions in the
+readme. For this tutorial, we are standardizing on a conda-based python
+distribution (miniconda or Anaconda). We may not be able to help with
+installation issues if you are using a different python distribution.
 
 JupyterLab is in beta and that first time impression
 are critical to usability of JupyterLab. We will show you what can be done, but
@@ -45,7 +66,8 @@ exercise try to think first:
  - Feel free to interrupt with questions and clarification
 
 
-  - There will likely be a binder available, but do not rely on the conference wifi.
+  - There will likely be a binder available, but do not rely on the conference
+    wifi.
 
 ###  JASON 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
     - Respond to FAQ:
@@ -92,7 +114,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   5. Attaching a code console to the same kernel as a notebook.
 
 
-###  MATTHIAS 1:55-2:15 (10 min) Exercise 2
+###  MATTHIAS 1:45-2:10 (15 min) Exercise 2
 
   - binding multiple documents to the same kernel
     - New Console for Notebook
@@ -103,17 +125,16 @@ Write one good thing on the green sticky note, one bad on the red one.
 ###  2:10-2:25 (15min)  break 10 min + sticky notes + Q.A 5min
 
 
-
 ## Customizing JupyterLab
 
-###  MATTHIAS 2:25-2:50 (20min)
+###  MATTHIAS 2:25-2:35 (5min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
 
-### Exercise 3 (15 min)
+### Exercise 3 2:35-2:50 (15 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
