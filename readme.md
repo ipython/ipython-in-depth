@@ -47,7 +47,7 @@ cd scipy2018-jupyterLab-tutorial
 conda env create -f environment.yml
 ```
 
-Activate the conda environment
+Activate the conda environment created previously (the name fo the environement was defined in the `environment.yml` used above)
 
 ```
 conda activate scipy18jlab
@@ -59,4 +59,30 @@ Install extra JupyterLab extensions
 jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
 ```
 
-If you open multiple terminal windows make sure to activate the environment in each of them.
+If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the curent environement, like so for example:
+
+
+
+```
+(scipy18jlab) ~/scipy2018-jupyterLab-tutorial $
+```
+
+
+
+## Starting JupyterLab:
+
+enter the following command in a new terminal windows, leave the window, if you close the window jupyterlab will exit.
+
+```
+$ jupyter lab
+```
+
+## Removing environement environment
+
+You can delete the previously created env by using the following in a terminal prompt. 
+
+```
+conda env remove --name scipy18jlab --yes
+```
+
+This will **not** delete any data, but only the conda environement named `scipy18jlab` .

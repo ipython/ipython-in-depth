@@ -23,7 +23,7 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
 - Change the first cell to markdown, and write some markdown with
     - Bold
     - italic
-    - [Math](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) (inlne and formulas): `$x^2$`, `$$\frac{-b \pm \sqrt(b^2-4ac})}{2a}$$`
+    - [Math](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) (inlne and formulas): `$f(x) =  a.x^2+b.x+c$`, `$$x_\pm = \frac{-b \pm \sqrt(b^2-4ac)}{2a}$$`
     - Code (triple backtick fences ` ``` `, or indented 4 spaces)
 - Create a code cell and evaluate it, printing "Hello SciPy"
     - Describe the difference between the `Ctrl-Enter`, `Shift-Enter`, and `Alt-Enter` shortcuts. See the Run menu.
@@ -35,7 +35,9 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
         - Use the command palette the find the Keyboard shortcut to open the inspector.
         - Change the inspector layout to be side-by-side with the notebook.
         - Type `pandas.read_csv(` to see the help pop up. 
-    - (TODO: do the answer key) use panda’s `read_csv` to load `'../demo/data/iris.csv'` into a dataframe, display this dataframe
+    - Use panda’s `read_csv` to load `'../demo/data/iris.csv'` into a dataframe, display this dataframe
+    - use `%matpltolib inline` to allow inline graphs, 
+    - make a scatter plot of `sepal_length` vs `sepal_width`.
 
 
 # More advanced notebooks

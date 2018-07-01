@@ -59,14 +59,14 @@ JupyterLab is in beta and that first time impression
 are critical to usability of JupyterLab. We will show you what can be done, but
 can still improve the usability quite a bit. When trying to do any task in the
 exercise try to think first:
- - How would I do that
- - Then try to do the task.
+- How would I do that
+- Then try to do the task.
     - Note what was intuitive, and what surprised you.
     - Tell it to us (via post it or issues)
- - Feel free to interrupt with questions and clarification
+- Feel free to interrupt with questions and clarification
 
 
-  - There will likely be a binder available, but do not rely on the conference
+- There will likely be a binder available, but do not rely on the conference
     wifi.
 
 ###  JASON 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
@@ -75,7 +75,7 @@ exercise try to think first:
       - Can you get Lab and notebook at the same time: YES
       - No difference in file format; Notebooks files are the same
 ###  JASON 0:25-0:45 (20 min): Tour of The User Interface
-  - if it does not work, hop on binder if it works
+- if it does not work, hop on binder if it works
   - Point to documentation, follow the naming conventions, maybe follow that outline
   - various existing default panel, and layout, file browser, support of multiple file types, multiple file viewers for single file
   - dragging ui
@@ -101,9 +101,9 @@ Write one good thing on the green sticky note, one bad on the red one.
   2. How to author markdown and equations
   3. Collapsible cells
   4. drag cells, inside notebook and between views of files.
-  3. Enable scrolling on outputs
+  5. Enable scrolling on outputs
   6. creating new view of outputs
-  5. javascript rendering restrictions
+  7. javascript rendering restrictions
 
 ###  MATTHIAS 1:30-1:45 (15 min): Attaching kernels to multiple documents
 
@@ -116,7 +116,7 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ###  MATTHIAS 1:45-2:10 (15 min) Exercise 2
 
-  - binding multiple documents to the same kernel
+- binding multiple documents to the same kernel
     - New Console for Notebook
     - Markdown file + console workflow
     - Python code file + console workflow
@@ -140,7 +140,7 @@ Write one good thing on the green sticky note, one bad on the red one.
       2. Assign new Keyboard shortcut to an existing action.
     2. add a keyboard shortcut (restart and run all)
     3. change an editor setting 
-    
+
 ## 2:50-3:15 (25min) - Workflows around Widgets (Jason)
 
   1. Introduction to widgets and libraries like bqplot, ipyvolume, pythreejs, etc.
