@@ -45,7 +45,6 @@ dependencies:
   - jupyterlab_launcher=0.10.5=py36_0
   - kiwisolver=1.0.1=py36_1
   - libpng=1.6.34=0
-  - libtiff=4.0.9=0
   - llvm-meta=6.0.0=0
   - llvmdev=6.0.0=default_3
   - markupsafe=1.0=py36_0
@@ -74,7 +73,6 @@ dependencies:
   - pytz=2018.4=py_0
   - pywavelets=0.5.2=py36_1
   - pyzmq=17.0.0=py36_4
-  - readline=7.0=0
   - requests=2.19.1=py36_0
   - scikit-image=0.14.0=py36hfc679d8_1
   - send2trash=1.5.0=py_0
