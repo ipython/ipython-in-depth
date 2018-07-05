@@ -29,8 +29,6 @@ dependencies:
   - jupyterlab
   - jupyterlab_launcher
   - libpng
-  - llvm-meta
-  - llvmdev
   - matplotlib
   - nbformat
   - networkx
