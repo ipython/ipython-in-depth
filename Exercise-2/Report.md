@@ -32,11 +32,13 @@ df.plot.scatter('sepal_width', 'sepal_length')
 
 # Categorical
 ```
-%load_ext autoreload 
-from lib import categorify
+%load_ext autoreload
+%autoreload 1
+%aimport lib
 ```
 
 ```
-categorify(df, 'species')
+df = pd.read_csv('../data/iris.csv')
+lib.categorify(df, 'species')
 df.plot.scatter('sepal_width', 'sepal_length', c='species', colormap='viridis')
 ```

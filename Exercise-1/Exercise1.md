@@ -36,6 +36,7 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
         - Change the inspector layout to be side-by-side with the notebook.
         - Type `pandas.read_csv(` to see the help pop up. 
     - Use panda’s `read_csv` to load `'../data/iris.csv'` into a dataframe, display this dataframe
+    - open `'../data/iris.csv'` as a standalone CSV file.
     - use `%matpltolib inline` to allow inline graphs, 
     - make a scatter plot of `sepal_length` vs `sepal_width`.
 

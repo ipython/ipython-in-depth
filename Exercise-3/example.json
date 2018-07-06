@@ -1,0 +1,16 @@
+{
+    "notebook:run-all":{
+        "keys":[
+            "-"
+        ],
+        "command":"notebook:hide-cell-outputs",
+        "selector":".jp-Notebook:focus"
+    },
+    "notebook:show-cell-outputs-2":{
+        "keys":[
+            "Shift ="
+        ],
+        "command":"notebook:show-cell-outputs",
+        "selector":".jp-Notebook:focus"
+    }
+}
