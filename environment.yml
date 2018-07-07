@@ -1,68 +1,14 @@
-# conda create -n scipy18jlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
 name: scipy18jlab
 channels:
   - conda-forge
 dependencies:
-  - arrow
-  - bqplot
-  - cookiecutter
-  - dask-core
-  - dask
-  - decorator
-  - entrypoints
-  - future
-  - ipydatawidgets
-  - ipykernel
-  - ipyscales
-  - ipython
-  - ipython_genutils
-  - ipyvolume
-  - ipywebrtc
-  - ipywidgets
-  - jedi
-  - jinja2
-  - jinja2-time
-  - jpeg
-  - jsonschema
-  - jupyter_client
-  - jupyter_core
-  - jupyterlab
-  - jupyterlab_launcher
-  - libpng
-  - matplotlib
-  - nbformat
-  - networkx
-  - nodejs
-  - notebook
-  - pandas
-  - pexpect
-  - pickleshare
-  - pillow
-  - poyo
-  - prompt_toolkit
-  - pygments
-  - python=3.6.5
-  - python-dateutil
-  - pythreejs
-  - pytz
-  - pywavelets
-  - pyzmq
-  - requests
-  - scikit-image
-  - setuptools
-  - terminado
-  - testpath
-  - toolz
-  - tornado
-  - traitlets
-  - traittypes
-  - urllib3
-  - wheel
-  - whichcraft
-  - widgetsnbextension
-  - xz
+  - python=3.6
   - pip
-  - scipy
-  - pip:
-    - dask==0.18.1
-    - jedi>=0.12.1
+  - cookiecutter=1.6
+  - notebook=5.5
+  - pandas=0.23
+  - nodejs=9.11
+  - jupyterlab
+  - bqplot
+  - ipyvolume
+  - pythreejs

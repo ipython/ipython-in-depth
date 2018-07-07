@@ -40,18 +40,17 @@ git pull
 
 Feel free to open an issue or send a pull request to update these materials if things are unclear.
 
-3. Set up your environment:
+3. Set up your environment.
 
-Create a conda environment
+Create a conda environment:
 
 ```
-cd scipy2018-jupyterlab-tutorial
-conda env create -f environment.yml
+conda create -n scipy18jlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
 ```
 
-(You could instead create the environment manually with `conda create -n scipy18jlab -c conda-forge --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs`)
+(You could instead create the environment from the supplied environment.yml file with `conda env create -f scipy2018-jupyterlab-tutorial/environment.yml`)
 
-Activate the conda environment created previously (the name of the environement was defined in the `environment.yml` used above)
+Activate the conda environment
 
 ```
 conda activate scipy18jlab
