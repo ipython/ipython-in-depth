@@ -1,7 +1,6 @@
 name: scipy18jlab
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - arrow
   - bqplot
