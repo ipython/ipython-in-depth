@@ -1,6 +1,6 @@
-# scipy_cert
+# Scipy Certificate
 
-SciPy cert ext
+SciPy Certificate extension
 
 
 ## Prerequisites
@@ -28,4 +28,3 @@ To rebuild the package and the JupyterLab app:
 npm run build
 jupyter lab build
 ```
-

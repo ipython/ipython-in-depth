@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "noImplicitAny": true,
-    "noEmitOnError": true,
-    "noUnusedLocals": true,
+    "lib": ["es2015", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "ES5",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
     "outDir": "./lib",
-    "lib": ["ES5", "ES2015.Promise", "DOM"],
+    "strict": true,
+    "target": "es2015",
     "types": []
   },
   "include": ["src/*"]

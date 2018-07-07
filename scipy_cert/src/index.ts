@@ -16,7 +16,7 @@ import '../style/index.css';
 /**
  * The default mime type for the extension.
  */
-const MIME_TYPE = 'application/cert';
+const MIME_TYPE = 'application/vnd.scipy2018.certificate';
 
 /**
  * The class name added to the extension.
