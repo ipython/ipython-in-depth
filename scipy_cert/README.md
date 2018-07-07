@@ -28,3 +28,15 @@ To rebuild the package and the JupyterLab app:
 npm run build
 jupyter lab build
 ```
+
+## Example file. 
+
+The extension renders file with `.json` or `.cert.json` extension, that have the `given` and `event` field.
+Example:
+
+```
+{
+  "given": "John Hunter",
+  "event": "SciPy 2012"
+}
+```
