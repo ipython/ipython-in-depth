@@ -85,3 +85,37 @@ conda env remove --name scipy18jlab --yes
 ```
 
 This will **not** delete any data, but only the conda environement named `scipy18jlab` .
+
+# Optional packages
+
+We are demonstrating a few packages not installed in the above lists. These are
+optional, and not required for the exercises in this tutorial.
+
+To install these, first activate the tutorial environment:
+
+```
+conda activate scipy18jlab
+```
+
+Then install the python packages:
+```
+conda install ipyleaflet
+pip install sidecar
+```
+
+and install the JupyterLab extensions:
+```
+jupyter labextension install jupyterlab-toc jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar
+```
+
+# Troubleshooting
+
+If you experience an out-of-memory error, you can increase the memory available:
+```
+NODE_OPTIONS=--max_old_space_size=4096 jupyter lab build
+```
+or
+```
+NODE_OPTIONS=--max_old_space_size=4096 jupyter labextension install ...
+```
+This increases the available memory for the build process to 4Gb.
