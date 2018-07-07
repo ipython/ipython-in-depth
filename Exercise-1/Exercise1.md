@@ -10,7 +10,7 @@ break.
 
 ## View this file as rendered markdown.
 
-Right-click on the file to open it as rendered markdown.
+Right-click on the `Exercise1.md` file to open it as rendered markdown.
 
 ## Layout
 
@@ -26,15 +26,15 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
     - [Math](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) (inlne and formulas): `$f(x) =  a.x^2+b.x+c$`, `$$x_\pm = \frac{-b \pm \sqrt(b^2-4ac)}{2a}$$`
     - Code (triple backtick fences ` ``` `, or indented 4 spaces)
 - Create a code cell and evaluate it, printing "Hello SciPy"
-    - Describe the difference between the `Ctrl-Enter`, `Shift-Enter`, and `Alt-Enter` shortcuts. See the Run menu.
+    - Experiment with the run shortcuts `Ctrl-Enter`, `Shift-Enter`, and `Alt-Enter` and note the differences between them (see the Run menu for help).
     - try importing `pandas`
     - evaluate `pandas?` to get the help on the pandas library.
     - try `pandas.D<tab>` to get tab completion on the pandas library. Note that completions can take a few second the first time the library get inspected to get result.
     - Complete to `pandas.DataFrame(` place the cursor after the open bracket and press `Shift-Tab` to get quick help.
     - To always see the info about the current function you can open the inspector via the command palette.
         - Use the command palette the find the Keyboard shortcut to open the inspector.
-        - Change the inspector layout to be side-by-side with the notebook.
-        - Type `pandas.read_csv(` to see the help pop up. 
+        - Move the inspector tab somewhere so that you can see both it and the notebook.
+        - Type `pandas.read_csv(` to see the inspector display function help.
     - Use panda’s `read_csv` to load `'../data/iris.csv'` into a dataframe, display this dataframe
     - open `'../data/iris.csv'` as a standalone CSV file.
     - use `%matpltolib inline` to allow inline graphs, 
