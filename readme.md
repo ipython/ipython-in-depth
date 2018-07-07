@@ -28,42 +28,41 @@ you are using a different python distribution.
 
 2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
-```
-git clone https://github.com/jupyterlab/scipy2018-jupyterlab-tutorial
-```
+    ```
+    git clone https://github.com/jupyterlab/scipy2018-jupyterlab-tutorial
+    ```
 
-To update the materials:
-```
-cd scipy2018-jupyterlab-tutorial
-git pull
-```
+    To update the materials:
+    ```
+    cd scipy2018-jupyterlab-tutorial
+    git pull
+    ```
 
-Feel free to open an issue or send a pull request to update these materials if things are unclear.
+    Feel free to open an issue or send a pull request to update these materials if things are unclear.
 
 3. Set up your environment.
 
-Create a conda environment:
+    Create a conda environment:
 
-```
-conda create -n scipy18jlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
-```
+    ```
+    conda create -n scipy18jlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
+    ```
 
-(You could instead create the environment from the supplied environment.yml file with `conda env create -f scipy2018-jupyterlab-tutorial/environment.yml`)
+    (You could instead create the environment from the supplied environment file with `conda env create -f scipy2018-jupyterlab-tutorial/environment.yml`)
 
-Activate the conda environment
+    Activate the conda environment:
 
-```
-conda activate scipy18jlab
-```
+    ```
+    conda activate scipy18jlab
+    ```
 
-Install extra JupyterLab extensions
+    Install extra JupyterLab extensions:
 
-```
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
-```
+    ```
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
+    ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
-
 ```
 (scipy18jlab) ~/scipy2018-jupyterlab-tutorial $
 ```
@@ -79,7 +78,7 @@ $ jupyter lab
 
 ## Removing environment
 
-You can delete the previously created environment by using the following in a terminal prompt.
+You can delete the environment by using the following in a terminal prompt.
 
 ```
 conda env remove --name scipy18jlab --yes
