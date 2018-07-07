@@ -68,7 +68,7 @@ If you open multiple terminal windows make sure to activate the environment in e
 ```
 
 
-## Starting JupyterLab:
+## Starting JupyterLab
 
 Enter the following command in a new terminal window to start JupyterLab.
 
