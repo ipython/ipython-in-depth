@@ -166,7 +166,7 @@ Write one good thing on the green sticky note, one bad on the red one.
     - getting started bootstrapping custom plugin
       - Walkthrough of theme plugin
       - Walkthrough of simple mimetype rendering plugin
-    - Exercise 4:
+    - Exercise 5:
       - Modifying and installing theme plugin
       - and/or
       - Modifying and installing mimetype plugin. Certificate of accomplishment plugin?

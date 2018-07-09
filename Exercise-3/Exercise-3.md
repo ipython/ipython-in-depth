@@ -1,4 +1,4 @@
-# Exercises 1
+# Exercises 3
 
 Remove all the sticky notes from your screen :-) and attempt the following.
 These are _guidelines_, feel free to err on the side of workflow and
