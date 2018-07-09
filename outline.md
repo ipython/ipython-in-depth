@@ -156,7 +156,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   1. Extending JupyterLab – scratching the surface
     - everything is plugin
     - installing a plugin, example
-      - rendere : https://github.com/jupyterlab/jupyter-renderers
+      - renderer : https://github.com/jupyterlab/jupyter-renderers
       - Plotly could be a fun one (https://github.com/plotly/jupyterlab-chart-editor)
     - high-level walkthrough of what happens when a plugin is installed/enabled
       - requires npm
