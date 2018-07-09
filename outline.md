@@ -43,7 +43,7 @@ links) and a rough timeline if you want to follow up on the video later.
 
 ## Overview of JupyterLab
 
-###  0-0:10 (10 min) - introduction
+###  8-8:10 (10 min) - introduction
 
 Today this tutorial will be presented to you by Jason Grout, and Matthias
 Bussonnier, two long standing members of the Jupyter Project. We have a number
@@ -69,12 +69,15 @@ exercise try to think first:
 - There will likely be a binder available, but do not rely on the conference
     wifi.
 
-###  JASON 0:10-0:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
-    - Respond to FAQ:
-      - Why JupyterLab ?
-      - Can you get Lab and notebook at the same time: YES
-      - No difference in file format; Notebooks files are the same
-###  JASON 0:25-0:45 (20 min): Tour of The User Interface
+###  JASON 8:10-8:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
+
+- Respond to FAQ:
+  - Why JupyterLab ?
+  - Can you get Lab and notebook at the same time: YES
+  - No difference in file format; Notebooks files are the same
+
+###  JASON 8:25-8:45 (20 min): Tour of The User Interface
+
 - if it does not work, hop on binder if it works
   - Point to documentation, follow the naming conventions, maybe follow that outline
   - various existing default panel, and layout, file browser, support of multiple file types, multiple file viewers for single file
@@ -83,19 +86,19 @@ exercise try to think first:
   - Important shortcuts
   - Can follow the outline in the pydata seattle talk or scipy 2017 lightning talk (see https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative)
 
-###  MATTHIAS 0:45-1:05 (20 min): Exercise 1 (and help installation issues if needed):
+###  MATTHIAS 8:45-9:05 (20 min): Exercise 1 (and help installation issues if needed):
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
 
-### 1:05-1:15 (10 min): break 10min + sticky notes
+### 9:05-9:15 (10 min): break 10min + sticky notes
 
 Write one good thing on the green sticky note, one bad on the red one.
 
-### 1:15-1:20 (5 min) : Q.A. 5 min
+### 9:15-9:20 (5 min) : Q.A. 5 min
 
 ## Workflows around executing code
 
-###  MATTHIAS 1:20-1:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
+###  MATTHIAS 9:20-9:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
 
   1. Arranging tabs through dragging
   2. How to author markdown and equations
@@ -105,7 +108,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   6. creating new view of outputs
   7. javascript rendering restrictions
 
-###  MATTHIAS 1:30-1:45 (15 min): Attaching kernels to multiple documents
+###  MATTHIAS 9:30-9:45 (15 min): Attaching kernels to multiple documents
 
   1. Executing code in a markdown file using an attached console.
   2. Developing libraries with notebook and Python files attached to same kernel
@@ -114,7 +117,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   5. Attaching a code console to the same kernel as a notebook.
 
 
-###  MATTHIAS 1:45-2:10 (15 min) Exercise 2
+###  MATTHIAS 9:45-10:10 (15 min) Exercise 2
 
 - binding multiple documents to the same kernel
     - New Console for Notebook
@@ -122,26 +125,26 @@ Write one good thing on the green sticky note, one bad on the red one.
     - Python code file + console workflow
     - Open a notebook in classic notebook, modify, save and reopen in Lab.
 
-###  2:10-2:25 (15min)  break 10 min + sticky notes + Q.A 5min
+###  10:10-10:25 (15min)  break 10 min + sticky notes + Q.A 5min
 
 
 ## Customizing JupyterLab
 
-###  MATTHIAS 2:25-2:35 (5min)
+###  MATTHIAS 10:25-10:35 (5min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
 
-### Exercise 3 2:35-2:50 (15 min)
+### Exercise 3 10:35-10:50 (15 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
     2. add a keyboard shortcut (restart and run all)
     3. change an editor setting 
 
-## 2:50-3:15 (25min) - Workflows around Widgets (Jason)
+## 10:50-11:15 (25min) - Workflows around Widgets (Jason)
 
   1. Introduction to widgets and libraries like bqplot, ipyvolume, pythreejs, etc.
   2. Mirroring widget output
@@ -151,7 +154,7 @@ Write one good thing on the green sticky note, one bad on the red one.
     3. Simple slider + Graph 
     4. bqplot graph controlling another graph
 
-## Going further (3:15-3:50, 35 min) :
+## Going further (11:15-11:50, 35 min) :
 
   1. Extending JupyterLab – scratching the surface
     - everything is plugin
@@ -173,4 +176,4 @@ Write one good thing on the green sticky note, one bad on the red one.
     - Point to cookie Cutter.
 ## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
 ## Mention sprints!
-## 3:50-4:00 QA, Question
+## 11:50-12:00 QA, Question
