@@ -1,10 +1,10 @@
 ## Attached markdown document to a console. 
 
 
-Rightclick somewhere on this document and click `"Create console for editor"`.
+Right-click somewhere on this document and click `"Create console for editor"`.
 You will be prompted to select a kernel (new or existing). 
 
-Now that this is done, the  current or _fenced block_,  _selection_ or _line_ will be sent to the console and executed.
+Now that this is done, the current or _fenced block_,  _selection_ or _line_ will be sent to the console and executed.
 
 # Iris dataset
 
