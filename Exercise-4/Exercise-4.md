@@ -202,4 +202,4 @@ notebooks. Open the `Certificate.ipynb` notebook and run it.
 
 ## More information
 
-For more information about writing extensions, especially more substantial ones, see the [XKCD extension tutorial](http://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html) in the JupyterLab documentation.jupyt
+For more information about writing extensions, especially more substantial ones, see the [XKCD extension tutorial](http://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html) in the JupyterLab documentation.
