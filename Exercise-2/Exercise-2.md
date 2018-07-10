@@ -19,11 +19,5 @@ it down (for example on the red sticky note), and give it to us at the break.
     - TODO :arranging things side-by-side. Come up with specific layouts they have to get
     - Try to find information about "single-document mode"
 
-
-
-
-- TODO : CSV viewing
-- TODO : Json/GeoJson.
-
-
 - Look in the help menu how to open same notebook in classic notebook
+ 
