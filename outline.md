@@ -69,7 +69,9 @@ exercise try to think first:
 - There will likely be a binder available, but do not rely on the conference
     wifi.
 
-###  JASON 8:10-8:25 (15min) - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
+###  JASON 8:10-8:25 (15min)
+
+ - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
 
 - Respond to FAQ:
   - Why JupyterLab ?
@@ -154,26 +156,25 @@ Write one good thing on the green sticky note, one bad on the red one.
     3. Simple slider + Graph 
     4. bqplot graph controlling another graph
 
-## Going further (11:15-11:50, 35 min) :
+## Plugins 
 
-  1. Extending JupyterLab – scratching the surface
-    - everything is plugin
-    - installing a plugin, example
-      - renderer : https://github.com/jupyterlab/jupyter-renderers
-      - Plotly could be a fun one (https://github.com/plotly/jupyterlab-chart-editor)
-    - high-level walkthrough of what happens when a plugin is installed/enabled
-      - requires npm
-      - recompiling js
-      - --core-mode
-      - enabling/disabling extensions
-    - getting started bootstrapping custom plugin
-      - Walkthrough of theme plugin
-      - Walkthrough of simple mimetype rendering plugin
-    - Exercise 5:
-      - Modifying and installing theme plugin
-      - and/or
-      - Modifying and installing mimetype plugin. Certificate of accomplishment plugin?
-    - Point to cookie Cutter.
+## Extensions (11:15-11:50, 35 min) :
+
+1. Everything is an extension - show the package.json
+2. Installing/listing/enabling/disabling plugins. `jupyter lab build`
+3. `--core-mode`
+4. Exercise 5 - writing your own extension
+
+## What's new
+
+JupyterLab 0.33 prerelease out:
+- Workspaces
+- Extension manager
+- Console show outputs
+- Open in new browser tab
+- Many, many upgrades
+
+
 ## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
 ## Mention sprints!
 ## 11:50-12:00 QA, Question
