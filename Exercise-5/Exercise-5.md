@@ -23,7 +23,7 @@ author_name []: <Your name>
 author_email []: <Your email>
 extension_name [myextension]: my_certificate_viewer
 viewer_name [My Viewer]: Certificate Viewer
-mimetype [application/vnd.my_organization.my_type]: application/vnd.scipy2018.certificate
+mimetype [application/vnd.my_organization.my_type]: application/vnd.jupyterlab.certificate
 mimetype_name [my_type]: certificate
 file_extension [.my_type]: .cert.json
 Select data_format:
@@ -194,6 +194,11 @@ Congratulations! You can now install the extension again to wrap things up.
  ```
 jupyter labextension install ./my_certificate_viewer
 ```
+
+## Notebook
+
+A mimerender extension is used to render both files and rich outputs in
+notebooks. Open the `Certificate.ipynb` notebook and run it.
 
 ## More information
 
