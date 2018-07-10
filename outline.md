@@ -70,8 +70,7 @@ exercise try to think first:
     wifi.
 
 ###  JASON 8:10-8:25 (15min)
-
- - Standard slides covering background of notebook and JupyterLab. These are from the jupyterlab-demo repo
+ - Introduction to JupyterLab (slides)
 
 - Respond to FAQ:
   - Why JupyterLab ?
@@ -173,6 +172,11 @@ JupyterLab 0.33 prerelease out:
 - Console show outputs
 - Open in new browser tab
 - Many, many upgrades
+
+Extensions in the works:
+- Keyboard shortcut editor
+- Status bar
+- Real-time collaboration
 
 
 ## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
