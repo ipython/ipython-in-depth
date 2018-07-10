@@ -9,15 +9,13 @@ it down (for example on the red sticky note), and give it to us at the break.
 
 ## Files + consoles
 - binding multiple documents to the same kernel
-    - New Console for Notebook
-    - R-Markdown workflow. - live editing demo
+    - Notebook + console workflow
+    - Markdown + console workflow
     - Python code file + console workflow
     - Open in classic notebook, modify, save and reopen in Lab.
     - Try creating new document/notebook/terminal/console
 
 - Try arranging different layout, and refresh the page. Get a feeling of which layout element persist across refresh
-    - TODO :arranging things side-by-side. Come up with specific layouts they have to get
     - Try to find information about "single-document mode"
 
 - Look in the help menu how to open same notebook in classic notebook
- 
