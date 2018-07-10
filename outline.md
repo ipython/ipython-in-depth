@@ -78,14 +78,7 @@ exercise try to think first:
   - No difference in file format; Notebooks files are the same
 
 ###  JASON 8:25-8:45 (20 min): Tour of The User Interface
-
-- if it does not work, hop on binder if it works
-  - Point to documentation, follow the naming conventions, maybe follow that outline
-  - various existing default panel, and layout, file browser, support of multiple file types, multiple file viewers for single file
-  - dragging ui
-  - Command palette
-  - Important shortcuts
-  - Can follow the outline in the pydata seattle talk or scipy 2017 lightning talk (see https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative)
+  - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
 
 ###  MATTHIAS 8:45-9:05 (20 min): Exercise 1 (and help installation issues if needed):
 
@@ -107,7 +100,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   4. drag cells, inside notebook and between views of files.
   5. Enable scrolling on outputs
   6. creating new view of outputs
-  7. javascript rendering restrictions
+  7. javascript rendering restrictions (removed in the next beta)
 
 ###  MATTHIAS 9:30-9:45 (15 min): Attaching kernels to multiple documents
 
@@ -131,7 +124,7 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ## Customizing JupyterLab
 
-###  MATTHIAS 10:25-10:35 (5min)
+###  MATTHIAS 10:25-10:35 (10min)
 
   1. Changing editor settings
   2. Changing theme
@@ -143,34 +136,23 @@ Write one good thing on the green sticky note, one bad on the red one.
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
     2. add a keyboard shortcut (restart and run all)
-    3. change an editor setting 
+    3. change an editor setting
 
-## 10:50-11:15 (25min) - Workflows around Widgets (Jason)
-
-  1. Introduction to widgets and libraries like bqplot, ipyvolume, pythreejs, etc.
-  2. Mirroring widget output
-  3. Exercise 4:
-    1. Making sure widgets works:
-    2. Interact
-    3. Simple slider + Graph 
-    4. bqplot graph controlling another graph
-
-## Plugins 
-
-## Extensions (11:15-11:50, 35 min) :
+## Extensions (10:50-11:30, 35 min)
 
 1. Everything is an extension - show the package.json
 2. Installing/listing/enabling/disabling plugins. `jupyter lab build`
 3. `--core-mode`
 4. Exercise 5 - writing your own extension
 
-## What's new
+## What's new (11:30-11:40)
 
 JupyterLab 0.33 prerelease out:
 - Workspaces
 - Extension manager
 - Console show outputs
 - Open in new browser tab
+- Longer tabs
 - Many, many upgrades
 
 Extensions in the works:
@@ -181,4 +163,4 @@ Extensions in the works:
 
 ## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
 ## Mention sprints!
-## 11:50-12:00 QA, Question
+## 11:40-12:00 QA, Question
