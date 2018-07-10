@@ -99,13 +99,13 @@ conda activate scipy18jlab
 
 Then install the python packages:
 ```
-conda install ipyleaflet
+conda install -c conda-forge --override-channels --yes ipyleaflet ipympl
 pip install sidecar
 ```
 
 and install the JupyterLab extensions:
 ```
-jupyter labextension install jupyterlab-toc jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar
+jupyter labextension install jupyterlab-toc jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar jupyterlab-drawio
 ```
 
 # Troubleshooting
