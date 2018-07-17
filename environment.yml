@@ -10,5 +10,4 @@ dependencies:
   - nodejs=9.11
   - jupyterlab
   - bqplot
-  - ipyvolume
   - pythreejs
