@@ -29,12 +29,12 @@ you are using a different python distribution.
 2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
     ```
-    git clone https://github.com/jupyterlab/scipy2018-jupyterlab-tutorial
+    git clone https://github.com/ipython/ipython-in-depth
     ```
 
     To update the materials:
     ```
-    cd scipy2018-jupyterlab-tutorial
+    cd ipython-in-depth
     git pull
     ```
 
@@ -45,15 +45,15 @@ you are using a different python distribution.
     Create a conda environment:
 
     ```
-    conda create -n scipy18jlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
+    conda create -n pycon2019 -c conda-forge --override-channels --yes python=3.7 pip cookiecutter=1.6 'notebook=5.7' pandas=0.24 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
     ```
 
-    (You could instead create the environment from the supplied environment file with `conda env create -f scipy2018-jupyterlab-tutorial/environment.yml`)
+    (You could instead create the environment from the supplied environment file with `conda env create -f pycon2019-jupyterlab-tutorial/environment.yml`)
 
     Activate the conda environment:
 
     ```
-    conda activate scipy18jlab
+    conda activate pycon2019
     ```
 
     Install extra JupyterLab extensions:
@@ -64,7 +64,7 @@ you are using a different python distribution.
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
 ```
-(scipy18jlab) ~/scipy2018-jupyterlab-tutorial $
+(pycon2019) ~/ipython-in-depth $
 ```
 
 
@@ -81,10 +81,10 @@ $ jupyter lab
 You can delete the environment by using the following in a terminal prompt.
 
 ```
-conda env remove --name scipy18jlab --yes
+conda env remove --name pycon2019 --yes
 ```
 
-This will **not** delete any data, but only the conda environement named `scipy18jlab` .
+This will **not** delete any data, but only the conda environement named `pycon2019` .
 
 # Optional packages
 
@@ -94,7 +94,7 @@ optional, and not required for the exercises in this tutorial.
 To install these, first activate the tutorial environment:
 
 ```
-conda activate scipy18jlab
+conda activate pycon2019
 ```
 
 Then install the python packages:
