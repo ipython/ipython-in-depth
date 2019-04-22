@@ -69,7 +69,7 @@ exercise try to think first:
 - There will likely be a binder available, but do not rely on the conference
     wifi.
 
-###  JASON 8:10-8:25 (15min)
+### 9:10 (+15min)
  - Introduction to JupyterLab (slides)
 
 - Respond to FAQ:
@@ -77,22 +77,22 @@ exercise try to think first:
   - Can you get Lab and notebook at the same time: YES
   - No difference in file format; Notebooks files are the same
 
-###  JASON 8:25-8:45 (20 min): Tour of The User Interface
+### 9:25-9:45 (20 min): Tour of The User Interface
   - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
 
-###  MATTHIAS 8:45-9:05 (20 min): Exercise 1 (and help installation issues if needed):
+###  9:45-10:05 (20 min): Exercise 1 (and help installation issues if needed):
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
 
-### 9:05-9:15 (10 min): break 10min + sticky notes
+### 10:05-10:15 (10 min): break 10min + sticky notes
 
 Write one good thing on the green sticky note, one bad on the red one.
 
-### 9:15-9:20 (5 min) : Q.A. 5 min
+### 10:15-10:20 (5 min) : Q.A. 5 min
 
 ## Workflows around executing code
 
-###  MATTHIAS 9:20-9:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
+###  10:20-10:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
 
   1. Arranging tabs through dragging
   2. How to author markdown and equations
@@ -102,7 +102,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   6. creating new view of outputs
   7. javascript rendering restrictions (removed in the next beta)
 
-###  MATTHIAS 9:30-9:45 (15 min): Attaching kernels to multiple documents
+###  10:30-10:45 (15 min): Attaching kernels to multiple documents
 
   1. Executing code in a markdown file using an attached console.
   2. Developing libraries with notebook and Python files attached to same kernel
@@ -111,7 +111,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   5. Attaching a code console to the same kernel as a notebook.
 
 
-###  MATTHIAS 9:45-10:10 (15 min) Exercise 2
+###  10:45-11:10 (15 min) Exercise 2
 
 - binding multiple documents to the same kernel
     - New Console for Notebook
@@ -119,26 +119,26 @@ Write one good thing on the green sticky note, one bad on the red one.
     - Python code file + console workflow
     - Open a notebook in classic notebook, modify, save and reopen in Lab.
 
-###  10:10-10:25 (15min)  break 10 min + sticky notes + Q.A 5min
+###  11:10-11:25 (15min)  break 10 min + sticky notes + Q.A 5min
 
 
 ## Customizing JupyterLab
 
-###  MATTHIAS 10:25-10:35 (10min)
+###  11:25-11:35 (10min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
 
-### Exercise 3 10:35-10:50 (15 min)
+### Exercise 3 11:35-11:50 (15 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
     2. add a keyboard shortcut (restart and run all)
     3. change an editor setting
 
-## Extensions (10:50-11:30, 35 min)
+## Extensions (11:50-11:30, 35 min)
 
 1. Everything is an extension - show the package.json
 2. Installing/listing/enabling/disabling plugins. `jupyter lab build`
