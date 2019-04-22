@@ -12,11 +12,11 @@ it down (for example on the red sticky note), and give it to us at the break.
 
 - Binding multiple documents to the same kernel
     - Notebook + console workflow
-    - Markdown + console workflow
-    - Python code file + console workflow
-    - Open notebook in classic notebook, modify, save and reopen in Lab (hint: look in Help menu)
-    - Try creating new document/notebook/terminal/console
-    - Open two notebooks with the same kernel
+        - Open Notebook A and B, 
+        - change notebook B kernel to be the same as "Notebook A"
+        - See how state is shared.
+    - Markdown + console workflow; Python code file + console workflow
+        - Open "report.md" and follow instructions. 
     - Go to the Running tab to shut down all kernels
 
 - Try arranging different layout, and refresh the page. Get a feeling of which layout element persist across refresh

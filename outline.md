@@ -45,7 +45,7 @@ links) and a rough timeline if you want to follow up on the video later.
 
 ###  8-8:10 (10 min) - introduction
 
-Today this tutorial will be presented to you by Jason Grout, and Matthias
+Today this tutorial will be presented to you by  Matthias
 Bussonnier, two long standing members of the Jupyter Project. We have a number
 of helpers in the room. Attendees should have been given red/green
 sticky notes.
@@ -55,8 +55,8 @@ readme. For this tutorial, we are standardizing on a conda-based python
 distribution (miniconda or Anaconda). We may not be able to help with
 installation issues if you are using a different python distribution.
 
-JupyterLab is in beta and that first time impression
-are critical to usability of JupyterLab. We will show you what can be done, but
+JupyterLab is close to be release as a 1.0, only a few changges are expected
+between now and final release. We will show you what can be done, but
 can still improve the usability quite a bit. When trying to do any task in the
 exercise try to think first:
 - How would I do that
@@ -102,7 +102,17 @@ Write one good thing on the green sticky note, one bad on the red one.
   6. creating new view of outputs
   7. javascript rendering restrictions (removed in the next beta)
 
-###  10:30-10:45 (15 min): Attaching kernels to multiple documents
+
+###  10:30-10:55 (15 min) Exercise 2
+
+- binding multiple documents to the same kernel
+    - New Console for Notebook
+    - Markdown file + console workflow
+    - Python code file + console workflow
+    - Open a notebook in classic notebook, modify, save and reopen in Lab.
+
+
+###  10:55-11:00 (15 min): Attaching kernels to multiple documents
 
   1. Executing code in a markdown file using an attached console.
   2. Developing libraries with notebook and Python files attached to same kernel
@@ -111,13 +121,6 @@ Write one good thing on the green sticky note, one bad on the red one.
   5. Attaching a code console to the same kernel as a notebook.
 
 
-###  10:45-11:10 (15 min) Exercise 2
-
-- binding multiple documents to the same kernel
-    - New Console for Notebook
-    - Markdown file + console workflow
-    - Python code file + console workflow
-    - Open a notebook in classic notebook, modify, save and reopen in Lab.
 
 ###  11:10-11:25 (15min)  break 10 min + sticky notes + Q.A 5min
 

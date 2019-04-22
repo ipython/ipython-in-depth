@@ -10,7 +10,7 @@ break.
 
 ## View this file as rendered markdown.
 
-Right-click on the `Exercise1.md` file to open it as rendered markdown.
+Right-click on the `Exercise1.md` file and open it as rendered markdown.
 
 ## Layout
 
@@ -25,7 +25,7 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
     - italic
     - [Math](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) (inlne and formulas): `$f(x) =  a.x^2+b.x+c$`, `$$x_\pm = \frac{-b \pm \sqrt(b^2-4ac)}{2a}$$`
     - Code (triple backtick fences ` ``` `, or indented 4 spaces)
-- Create a code cell and evaluate it, printing "Hello SciPy"
+- Create a code cell and evaluate it, printing "Hello PyCon"
     - Experiment with the run shortcuts `Ctrl-Enter`, `Shift-Enter`, and `Alt-Enter` and note the differences between them (see the Run menu for help).
     - try importing `pandas`
     - evaluate `pandas?` to get the help on the pandas library.
