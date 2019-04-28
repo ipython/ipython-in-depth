@@ -43,7 +43,7 @@ you are using a different python distribution.
     Create a conda environment:
 
     ```
-    conda create -n pycon2019 -c conda-forge --override-channels --yes python=3.7 pip cookiecutter=1.6 'notebook=5.7' pandas=0.24 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs aoihttp
+    conda create -n pycon2019 -c conda-forge --override-channels --yes python=3.7 pip cookiecutter=1.6 'notebook=5.7' pandas=0.24 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs aiohttp
     ```
 
     (You could instead create the environment from the supplied environment file with `conda env create -f pycon2019-jupyterlab-tutorial/environment.yml`)
