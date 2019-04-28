@@ -16,3 +16,4 @@ dependencies:
   - line_profiler
   - matplotlib
   - rpy2
+  - simplegeneric
