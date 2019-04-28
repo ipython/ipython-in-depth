@@ -1,3 +1,83 @@
+## Instruction and what to install (+15min ~ 0:15)
+
+Quick instruction on how to get instructions and install required packages, get data... Fallback on online hosting for users if can't get to work on laptop.
+(We'll continue installation during next section)
+
+## Jupyter & IPython, overview of Ecosystem and new features (+25 min ~ 0:40)
+
+- What are the different pieces, how to get help after the tutorial. 
+  - Jupyter
+  - JupyterHub
+  - Notebook interfaces. 
+  - Kernels
+  - Extensions (difference between kernel, front-endand server extension, we'll only explore IPython kernel extension later in the tutorial)
+  - Binder
+- Moving toward Python 3 only, already he case for many pieces
+- Difference between notebook and JupyterLab
+- Overview what's New in JupyterLab, what's the difference with Classic Notebook.
+   - Complete compatibility. You can install both at the same time. 
+   - Same file format, same protocol...
+- Online hosted platforms
+   - Azure, Coclac, Colab, ...
+- Other frontends
+   - Nteract Vs Code, Atom, 
+- Whats new in Python, and how IPython/Jupyter make best use of it (will detail in later sections)
+
+
+## IPython: Interactivity beyond Python (+35min ~ 1:15)
+
+- Beyond Python: 
+      - magic commands, shell access, object introspection.
+      - integration with top-level async code in Python 3.6+
+      - superhelp `?` / `??`
+      - system command `!`
+      - Tab completion
+- Tools for typical development tasks: timing, profiling, debugging.
+
+We will leave 1 to 2 minutes hands-on for simple subjects like object
+introspection and variable caching.
+
+## Back to the terminal(s) (+15min ~ 1:30)
+
+- Demo and discussion of the last added features of the command line interpreter.
+- `IPython.embed`: a useful 'microscope' into your own scripts.
+- Customizing IPython with profiles.
+
+We'll leave 5-10 minutes at the end of this section for user to play
+with multiple features of IPython.
+
+## Notebook/JupyterLab a tour of the GUI (+40min ~ 2:10)
+
+- Couple of exercise to get user acclimated to JupyterLab and notebook Interfaces, keyboard shortcut. 
+- Plan a couple of advance written exercises showing-off advance features for user already familiar with new interface. 
+- Basic concepts: the server, the dashboard, your notebooks.
+- A notebook as a rich document: text, code, results and multimedia.
+- Sharing your notebooks: [nbviewer](http://nbviewer.ipython.org), MyBinder.org
+- Converting notebooks to other formats for sharing, blogging and publication.
+
+We'll interleave this presentation with few minutes breaks and try to ask user to achieve a specific state before showing them how to achieve it.
+
+## JupyterLab, IPython exercises (+50min ~3:00)
+
+In this section we'll have user customize their own code to make full use of the Jupyter and IPython capabilities. 
+
+ - The IPython display protocol: `__repr__` for more than just text.
+    - make full use of the display protocol to get a visualisation. 
+ - Discuss and work with widgets. 
+    - How widgets can bring interactivity to visualisation and analysis. 
+- Create an IPython extension, and register magics. 
+   - This should show the basic of cross-language integration. 
+ - Make use of magic to run a cross language analysis. 
+
+
+    
+## Conclusion 
+
+Further resource and conclusion (if time permit)
+
+
+---------------
+
 # Outline
 
 **These notes are for the presenters.**
