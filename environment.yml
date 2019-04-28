@@ -13,3 +13,5 @@ dependencies:
   - jupyterlab
   - bqplot
   - pythreejs
+  - line_profiler
+  - matplotlib
