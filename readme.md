@@ -1,8 +1,6 @@
-# SciPy 2018 JupyterLab tutorial.
+# PyCon 2019 Jupyter tutorial.
 
-This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during SciPy 2018.
-
-During the tutorial, feel free to get on the `jupyterlab` channel of https://scipy2018.slack.com/ for help and updates.
+This repository contain material and instructions to follow the "IPython and Jupyter in Depth: High productivity, interactive Python" tutorial during PyCon 2019.
 
 # Installation
 
