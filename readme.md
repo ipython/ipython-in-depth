@@ -84,28 +84,6 @@ conda env remove --name pycon2019 --yes
 
 This will **not** delete any data, but only the conda environement named `pycon2019` .
 
-# Optional packages
-
-We are demonstrating a few packages not installed in the above lists. These are
-optional, and not required for the exercises in this tutorial.
-
-To install these, first activate the tutorial environment:
-
-```
-conda activate pycon2019
-```
-
-Then install the python packages:
-```
-conda install -c conda-forge --override-channels --yes ipyleaflet ipympl
-pip install sidecar 
-```
-
-and install the JupyterLab extensions:
-```
-jupyter labextension install jupyterlab-toc jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar jupyterlab-drawio
-```
-
 # Troubleshooting
 
 If you experience an out-of-memory error, you can increase the memory available:
