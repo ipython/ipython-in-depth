@@ -37,6 +37,9 @@ Quick instruction on how to get instructions and install required packages, get 
 We will leave 1 to 2 minutes hands-on for simple subjects like object
 introspection and variable caching.
 
+
+BREAK
+
 ## Back to the terminal(s) (+15min ~ 1:30)
 
 - Demo and discussion of the last added features of the command line interpreter.
