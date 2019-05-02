@@ -17,3 +17,5 @@ dependencies:
   - matplotlib
   - rpy2
   - simplegeneric
+  - cython
+  - pillow

@@ -18,3 +18,4 @@ dependencies:
   - rpy2
   - simplegeneric
   - cython
+  - pillow
