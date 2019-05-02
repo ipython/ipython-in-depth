@@ -1,5 +1,7 @@
 # PyCon 2019 Jupyter tutorial.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Carreau/ipython-in-depth/pycon-2019?urlpath=%2Flab)
+
 This repository contain material and instructions to follow the "IPython and Jupyter in Depth: High productivity, interactive Python" tutorial during PyCon 2019.
 
 # Installation
