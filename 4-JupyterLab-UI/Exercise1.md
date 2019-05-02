@@ -43,8 +43,9 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
 
 # More advanced notebooks
 
-- Move a cell by dragging
+- Move a cell by dragging.
 - Use the View menu, or click the blue bar, to collapse and expand an input and an output.
 - Use the context menu to enable scrolling in a cell that has lots of output.
-- Try “Create new view for output” in the context menu of an output. Modify and execute the cell again to see the mirrored output update (will learn more in section 2)
+- Try “Create new view for output” in the context menu of an output. Modify and execute the cell again to see the mirrored output update (will learn more in section 2).
 - Learn the various keyboard shortcuts through the menu and the command palette.
+- Learn more about kernel functionality (more on that in the exercise solution).
