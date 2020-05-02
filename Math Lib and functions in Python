@@ -1,0 +1,21 @@
+import numpy as np
+import matpotlib as pp
+%matpotlib inline
+
+import math, json, collections, itertools
+
+
+
+for a in "Fibonacci":
+    print(a)
+    
+    
+    
+    #Iterators - 
+#1. Objects that define __next__()
+#2. Stop iteration with StopIteration exception
+
+it = iter("Fib")
+print (it.__next__())
+print (it.__next__())
+print (it.__next__())
