@@ -1,0 +1,8 @@
+cython
+ipyparallel
+ipython >= 4
+matplotlib
+notebook
+numpy
+pandas
+sympy
